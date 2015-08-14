@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="b4Q-BS-07s">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -52,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SLX-p6-aTa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1967" y="-7"/>
+            <point key="canvasLocation" x="1931" y="-847"/>
         </scene>
         <!--列表-->
         <scene sceneID="YcT-pE-1xA">
@@ -78,6 +79,7 @@
                     <navigationItem key="navigationItem" title="列表" id="vQa-ic-A1P"/>
                     <connections>
                         <segue destination="f0Y-H8-e1g" kind="show" identifier="CallBack" id="yiv-pK-dSt"/>
+                        <segue destination="XU2-h4-V2I" kind="show" id="QkG-Dh-nAN"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-SW-lCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -97,7 +99,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXw-QT-Kti">
-                                <rect key="frame" x="270" y="132" width="61" height="30"/>
+                                <rect key="frame" x="36" y="84" width="528" height="238"/>
                                 <state key="normal" title="Delegate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -106,7 +108,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oq7-pD-3F3">
-                                <rect key="frame" x="281" y="221" width="39" height="30"/>
+                                <rect key="frame" x="36" y="342" width="528" height="238"/>
                                 <state key="normal" title="Block">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -117,21 +119,28 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vXw-QT-Kti" firstAttribute="top" secondItem="QzR-LM-uzM" secondAttribute="bottom" constant="68" id="Oqa-WL-6Eu"/>
-                            <constraint firstAttribute="centerX" secondItem="vXw-QT-Kti" secondAttribute="centerX" id="Z0M-Uy-DNo"/>
-                            <constraint firstAttribute="centerX" secondItem="Oq7-pD-3F3" secondAttribute="centerX" id="tab-8m-6RN"/>
-                            <constraint firstItem="Oq7-pD-3F3" firstAttribute="top" secondItem="vXw-QT-Kti" secondAttribute="bottom" constant="59" id="vxB-0W-me7"/>
+                            <constraint firstItem="Uje-wn-D2M" firstAttribute="top" secondItem="Oq7-pD-3F3" secondAttribute="bottom" constant="20" id="2NW-4H-4G6"/>
+                            <constraint firstItem="Oq7-pD-3F3" firstAttribute="top" secondItem="vXw-QT-Kti" secondAttribute="bottom" constant="20" id="EM1-ac-Mdd"/>
+                            <constraint firstItem="Oq7-pD-3F3" firstAttribute="leading" secondItem="ccA-VH-qox" secondAttribute="leadingMargin" constant="20" id="ShY-Q5-KxB"/>
+                            <constraint firstItem="vXw-QT-Kti" firstAttribute="height" secondItem="Oq7-pD-3F3" secondAttribute="height" id="T1r-3i-I1T"/>
+                            <constraint firstItem="vXw-QT-Kti" firstAttribute="top" secondItem="QzR-LM-uzM" secondAttribute="bottom" constant="20" id="lRF-vb-wOv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vXw-QT-Kti" secondAttribute="trailing" constant="20" id="pti-TQ-Fni"/>
+                            <constraint firstItem="vXw-QT-Kti" firstAttribute="width" secondItem="Oq7-pD-3F3" secondAttribute="width" id="vJk-G9-4PN"/>
+                            <constraint firstItem="vXw-QT-Kti" firstAttribute="leading" secondItem="ccA-VH-qox" secondAttribute="leadingMargin" constant="20" id="vUQ-T2-ivd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Oq7-pD-3F3" secondAttribute="trailing" constant="20" id="zWH-YH-nbh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="回调" id="afc-Dn-nNj"/>
                     <connections>
+                        <outlet property="btnBlock" destination="Oq7-pD-3F3" id="9bp-Tw-BYy"/>
+                        <outlet property="btnDelegate" destination="vXw-QT-Kti" id="wyS-Gs-Sla"/>
                         <segue destination="ppz-qv-wKl" kind="show" identifier="Delegate" id="ybk-Iw-ouc"/>
                         <segue destination="LBU-fF-SA0" kind="show" identifier="Block" id="3Nr-8z-9xB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sjT-jA-6MT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="273"/>
+            <point key="canvasLocation" x="1160" y="-447"/>
         </scene>
         <!--Block-->
         <scene sceneID="wB5-MX-lH1">
@@ -165,7 +174,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mrn-FJ-KHO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1967" y="662"/>
+            <point key="canvasLocation" x="1947" y="-138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yZj-6I-xAa">
+            <objects>
+                <viewController id="XU2-h4-V2I" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9QR-kb-iyX"/>
+                        <viewControllerLayoutGuide type="bottom" id="fSI-jF-QiE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W1m-EO-cSM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9AN-v7-hUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1220" y="547"/>
         </scene>
     </scenes>
 </document>

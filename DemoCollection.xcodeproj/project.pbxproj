@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217E9B01B7C979300ADCAF8 /* BlockVC.m */; };
+		021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 021EAF681B7D967700D73BD7 /* UIView+Helper.m */; };
+		021EAF6B1B7D9A7C00D73BD7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */; };
 		02EF345A1B7C79290099D4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34591B7C79290099D4D9 /* main.m */; };
 		02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF345C1B7C79290099D4D9 /* AppDelegate.m */; };
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
@@ -33,6 +35,9 @@
 /* Begin PBXFileReference section */
 		0217E9AF1B7C979300ADCAF8 /* BlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockVC.h; sourceTree = "<group>"; };
 		0217E9B01B7C979300ADCAF8 /* BlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockVC.m; sourceTree = "<group>"; };
+		021EAF671B7D967700D73BD7 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		021EAF681B7D967700D73BD7 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		02EF34541B7C79290099D4D9 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF34581B7C79290099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF34591B7C79290099D4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021EAF6B1B7D9A7C00D73BD7 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +105,29 @@
 			name = CollectionView;
 			sourceTree = "<group>";
 		};
-		0217E9B51B7D79B300ADCAF8 /* New Group1 */ = {
+		0217E9B51B7D79B300ADCAF8 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group1";
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+		021EAF651B7D838D00D73BD7 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		021EAF661B7D83BF00D73BD7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				02EF34861B7C81330099D4D9 /* UITableView+Helper.h */,
+				02EF34871B7C81330099D4D9 /* UITableView+Helper.m */,
+				021EAF671B7D967700D73BD7 /* UIView+Helper.h */,
+				021EAF681B7D967700D73BD7 /* UIView+Helper.m */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 		02EF344B1B7C79290099D4D9 = {
@@ -129,15 +153,15 @@
 			children = (
 				02EF345B1B7C79290099D4D9 /* AppDelegate.h */,
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
-				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
-				0217E9B41B7D79AF00ADCAF8 /* CollectionView */,
-				0217E9B51B7D79B300ADCAF8 /* New Group1 */,
 				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
 				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
-				02EF34571B7C79290099D4D9 /* Supporting Files */,
+				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
 				0217E9B31B7CB33800ADCAF8 /* TableView */,
-				02EF34861B7C81330099D4D9 /* UITableView+Helper.h */,
-				02EF34871B7C81330099D4D9 /* UITableView+Helper.m */,
+				0217E9B41B7D79AF00ADCAF8 /* CollectionView */,
+				0217E9B51B7D79B300ADCAF8 /* ScrollView */,
+				021EAF651B7D838D00D73BD7 /* GCD */,
+				021EAF661B7D83BF00D73BD7 /* Helper */,
+				02EF34571B7C79290099D4D9 /* Supporting Files */,
 			);
 			path = DemoCollection;
 			sourceTree = "<group>";
@@ -145,6 +169,7 @@
 		02EF34571B7C79290099D4D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */,
 				02EF34661B7C79290099D4D9 /* LaunchScreen.xib */,
 				02EF34611B7C79290099D4D9 /* Main.storyboard */,
 				02EF34641B7C79290099D4D9 /* Images.xcassets */,
@@ -277,6 +302,7 @@
 				02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
+				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
 				02EF345A1B7C79290099D4D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

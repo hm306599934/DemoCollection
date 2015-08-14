@@ -10,6 +10,8 @@
 #import "DelegateVC.h"
 
 @interface CallBackVC : UIViewController<MyDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *btnDelegate;
+@property (weak, nonatomic) IBOutlet UIButton *btnBlock;
 
 - (IBAction)doDelegate:(UIButton *)sender;
 - (IBAction)doBlock:(UIButton *)sender;

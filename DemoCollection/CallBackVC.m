@@ -8,12 +8,17 @@
 
 #import "CallBackVC.h"
 #import "BlockVC.h"
+#import "UIView+Helper.h"
 
 @implementation CallBackVC
+@synthesize btnBlock;
+@synthesize btnDelegate;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+    self.navigationController.interactivePopGestureRecognizer.enabled = YES; //自动滑动返回
+    [self.btnDelegate addBorder:5];
+    [self.btnBlock addBorder:5];
 }
 
 - (void)didReceiveMemoryWarning {
