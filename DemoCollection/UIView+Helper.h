@@ -13,5 +13,7 @@
 
 - (void)addBorder:(CGFloat)radius colour:(UIColor *)color width:(CGFloat)width;
 - (void)addBorder:(CGFloat)radius;
+- (void)round;
+- (void)addRadius:(CGFloat)radius;
 
 @end

@@ -10,6 +10,13 @@
 		0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0217E9B01B7C979300ADCAF8 /* BlockVC.m */; };
 		021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 021EAF681B7D967700D73BD7 /* UIView+Helper.m */; };
 		021EAF6B1B7D9A7C00D73BD7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */; };
+		021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 021EAF6D1B7DBEE800D73BD7 /* TableViewVC.m */; };
+		021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 021EAF711B7DC19C00D73BD7 /* CustomButton.m */; };
+		021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 021EAF751B7DCF1200D73BD7 /* CustomCellVC.m */; };
+		021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 021EAF781B7DD11C00D73BD7 /* CustomTableViewCell.m */; };
+		021EAFD11B7DDD2900D73BD7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD01B7DDD2900D73BD7 /* Security.framework */; };
+		021EAFD31B7DDD3500D73BD7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */; };
+		021EAFD51B7DDD3D00D73BD7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */; };
 		02EF345A1B7C79290099D4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34591B7C79290099D4D9 /* main.m */; };
 		02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF345C1B7C79290099D4D9 /* AppDelegate.m */; };
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
@@ -38,6 +45,17 @@
 		021EAF671B7D967700D73BD7 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
 		021EAF681B7D967700D73BD7 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
 		021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		021EAF6C1B7DBEE800D73BD7 /* TableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewVC.h; sourceTree = "<group>"; };
+		021EAF6D1B7DBEE800D73BD7 /* TableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewVC.m; sourceTree = "<group>"; };
+		021EAF701B7DC19C00D73BD7 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		021EAF711B7DC19C00D73BD7 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		021EAF741B7DCF1200D73BD7 /* CustomCellVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellVC.h; sourceTree = "<group>"; };
+		021EAF751B7DCF1200D73BD7 /* CustomCellVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellVC.m; sourceTree = "<group>"; };
+		021EAF771B7DD11C00D73BD7 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		021EAF781B7DD11C00D73BD7 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		021EAFD01B7DDD2900D73BD7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		02EF34541B7C79290099D4D9 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF34581B7C79290099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF34591B7C79290099D4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021EAFD51B7DDD3D00D73BD7 /* CFNetwork.framework in Frameworks */,
+				021EAFD31B7DDD3500D73BD7 /* SystemConfiguration.framework in Frameworks */,
+				021EAFD11B7DDD2900D73BD7 /* Security.framework in Frameworks */,
 				021EAF6B1B7D9A7C00D73BD7 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +115,9 @@
 		0217E9B31B7CB33800ADCAF8 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				021EAF6C1B7DBEE800D73BD7 /* TableViewVC.h */,
+				021EAF6D1B7DBEE800D73BD7 /* TableViewVC.m */,
+				021EAF731B7DCEE400D73BD7 /* CustomCell */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -130,6 +154,33 @@
 			name = Helper;
 			sourceTree = "<group>";
 		};
+		021EAF6F1B7DC16C00D73BD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		021EAF731B7DCEE400D73BD7 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				021EAF701B7DC19C00D73BD7 /* CustomButton.h */,
+				021EAF711B7DC19C00D73BD7 /* CustomButton.m */,
+				021EAF741B7DCF1200D73BD7 /* CustomCellVC.h */,
+				021EAF751B7DCF1200D73BD7 /* CustomCellVC.m */,
+				021EAF771B7DD11C00D73BD7 /* CustomTableViewCell.h */,
+				021EAF781B7DD11C00D73BD7 /* CustomTableViewCell.m */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		021EAF7C1B7DD8DC00D73BD7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		02EF344B1B7C79290099D4D9 = {
 			isa = PBXGroup;
 			children = (
@@ -155,11 +206,13 @@
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
 				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
 				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
+				021EAF7C1B7DD8DC00D73BD7 /* Network */,
 				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
 				0217E9B31B7CB33800ADCAF8 /* TableView */,
 				0217E9B41B7D79AF00ADCAF8 /* CollectionView */,
 				0217E9B51B7D79B300ADCAF8 /* ScrollView */,
 				021EAF651B7D838D00D73BD7 /* GCD */,
+				021EAF6F1B7DC16C00D73BD7 /* View */,
 				021EAF661B7D83BF00D73BD7 /* Helper */,
 				02EF34571B7C79290099D4D9 /* Supporting Files */,
 			);
@@ -169,6 +222,9 @@
 		02EF34571B7C79290099D4D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */,
+				021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */,
+				021EAFD01B7DDD2900D73BD7 /* Security.framework */,
 				021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */,
 				02EF34661B7C79290099D4D9 /* LaunchScreen.xib */,
 				02EF34611B7C79290099D4D9 /* Main.storyboard */,
@@ -298,10 +354,14 @@
 			files = (
 				0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */,
 				02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */,
+				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
+				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
 				02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
+				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
+				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
 				02EF345A1B7C79290099D4D9 /* main.m in Sources */,
 			);

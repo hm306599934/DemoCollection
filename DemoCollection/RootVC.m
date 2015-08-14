@@ -56,8 +56,8 @@
     NSString *title = [data objectAtIndex:indexPath.row];
     if ([title isEqualToString:@"回调"]) {
         [self performSegueWithIdentifier:@"CallBack" sender:nil];
-    }else if ([title isEqualToString:@"回调"]) {
-        [self performSegueWithIdentifier:@"CallBack" sender:nil];
+    }else if ([title isEqualToString:@"UITableView"]) {
+        [self performSegueWithIdentifier:@"TableView" sender:nil];
     }
 }
 
