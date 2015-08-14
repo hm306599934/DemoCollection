@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B8F1A4ED-9FA3-4108-B32A-E9C71F7B1F99</string>
 	<key>IDESourceControlProjectName</key>
-	<string>DemoCollection</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CE837E18B96058A5EF85FBF694205A52EE2F9854</key>
 		<string>https://github.com/hm306599934/DemoCollection.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DemoCollection.xcodeproj</string>
+	<string>DemoCollection.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CE837E18B96058A5EF85FBF694205A52EE2F9854</key>
