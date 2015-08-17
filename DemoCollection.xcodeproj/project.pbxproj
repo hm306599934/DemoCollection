@@ -17,6 +17,10 @@
 		021EAFD11B7DDD2900D73BD7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD01B7DDD2900D73BD7 /* Security.framework */; };
 		021EAFD31B7DDD3500D73BD7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */; };
 		021EAFD51B7DDD3D00D73BD7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */; };
+		029029871B81F4FD0079AF30 /* GCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029861B81F4FD0079AF30 /* GCDVC.m */; };
+		0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029891B81F6860079AF30 /* AsyncVC.m */; };
+		0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290298C1B81FBAA0079AF30 /* GroupAsyncVC.m */; };
+		029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290298F1B8201580079AF30 /* BarrierAsyncVC.m */; };
 		02EF345A1B7C79290099D4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34591B7C79290099D4D9 /* main.m */; };
 		02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF345C1B7C79290099D4D9 /* AppDelegate.m */; };
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
@@ -56,6 +60,14 @@
 		021EAFD01B7DDD2900D73BD7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		029029851B81F4FD0079AF30 /* GCDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDVC.h; sourceTree = "<group>"; };
+		029029861B81F4FD0079AF30 /* GCDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDVC.m; sourceTree = "<group>"; };
+		029029881B81F6860079AF30 /* AsyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncVC.h; sourceTree = "<group>"; };
+		029029891B81F6860079AF30 /* AsyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncVC.m; sourceTree = "<group>"; };
+		0290298B1B81FBAA0079AF30 /* GroupAsyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAsyncVC.h; sourceTree = "<group>"; };
+		0290298C1B81FBAA0079AF30 /* GroupAsyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAsyncVC.m; sourceTree = "<group>"; };
+		0290298E1B8201580079AF30 /* BarrierAsyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrierAsyncVC.h; sourceTree = "<group>"; };
+		0290298F1B8201580079AF30 /* BarrierAsyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrierAsyncVC.m; sourceTree = "<group>"; };
 		02EF34541B7C79290099D4D9 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF34581B7C79290099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF34591B7C79290099D4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,6 +151,14 @@
 		021EAF651B7D838D00D73BD7 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				029029851B81F4FD0079AF30 /* GCDVC.h */,
+				029029861B81F4FD0079AF30 /* GCDVC.m */,
+				029029881B81F6860079AF30 /* AsyncVC.h */,
+				029029891B81F6860079AF30 /* AsyncVC.m */,
+				0290298B1B81FBAA0079AF30 /* GroupAsyncVC.h */,
+				0290298C1B81FBAA0079AF30 /* GroupAsyncVC.m */,
+				0290298E1B8201580079AF30 /* BarrierAsyncVC.h */,
+				0290298F1B8201580079AF30 /* BarrierAsyncVC.m */,
 			);
 			name = GCD;
 			sourceTree = "<group>";
@@ -358,10 +378,14 @@
 				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
 				02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */,
+				029029871B81F4FD0079AF30 /* GCDVC.m in Sources */,
+				0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
+				029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
 				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
+				0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
 				02EF345A1B7C79290099D4D9 /* main.m in Sources */,
 			);

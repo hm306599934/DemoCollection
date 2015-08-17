@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"网络", @"其他", nil];
     [self.tableView hideExtreCell];
 }
 
@@ -58,6 +58,8 @@
         [self performSegueWithIdentifier:@"CallBack" sender:nil];
     }else if ([title isEqualToString:@"UITableView"]) {
         [self performSegueWithIdentifier:@"TableView" sender:nil];
+    }else if ([title isEqualToString:@"GCD"]) {
+        [self performSegueWithIdentifier:@"GCD" sender:nil];
     }
 }
 
