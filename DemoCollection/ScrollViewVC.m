@@ -21,9 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    data = [[NSArray alloc] initWithObjects:@"image_1", @"image_1", @"image_1", @"image_1",nil];
+    data = [[NSArray alloc] initWithObjects:@"image_1", @"image_2", @"image_3", @"image_4",nil];
     PageScrollView *pageScrollVIew = [[PageScrollView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 120) images:data];
-    pageScrollVIew.backgroundColor = [UIColor redColor];
     [self.view addSubview:pageScrollVIew];
 }
 
