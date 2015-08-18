@@ -1,29 +1,26 @@
 //
-//  CustomCellVC.m
+//  AnimationVC.m
 //  DemoCollection
 //
-//  Created by trier on 14/8/15.
+//  Created by trier on 18/8/15.
 //  Copyright (c) 2015 Tony. All rights reserved.
 //
 
-#import "CustomCellVC.h"
-#import "UITableView+Helper.h"
-#import "CustomTableViewCell.h"
+#import "AnimationVC.h"
+#import "AnimationView.h"
 
-@interface CustomCellVC ()
+@interface AnimationVC ()
 
 @end
 
-@implementation CustomCellVC
+@implementation AnimationVC
+{
+    NSArray *data;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.tableView hideExtreCell];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+        data = [[NSArray alloc] initWithObjects:@"平移", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,24 +35,29 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return [data count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellID = @"Cell";
-    CustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
     if (!cell)
     {
-        cell = [[CustomTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellID];
     }
-    
+    cell.textLabel.text = [data objectAtIndex:indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated: YES];
-
+    NSString *title = [data objectAtIndex:indexPath.row];
+    if ([title isEqualToString:@"平移"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame:CGRectMake(0, 0, 100, 120) in: self.view];
+        [animationView show];
+        
+    }
 }
 
 @end

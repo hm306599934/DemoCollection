@@ -21,6 +21,8 @@
 		0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029891B81F6860079AF30 /* AsyncVC.m */; };
 		0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290298C1B81FBAA0079AF30 /* GroupAsyncVC.m */; };
 		029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290298F1B8201580079AF30 /* BarrierAsyncVC.m */; };
+		029029941B82E2B90079AF30 /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029931B82E2B90079AF30 /* AnimationVC.m */; };
+		029029971B82E4010079AF30 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029961B82E4010079AF30 /* AnimationView.m */; };
 		02EF345A1B7C79290099D4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34591B7C79290099D4D9 /* main.m */; };
 		02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF345C1B7C79290099D4D9 /* AppDelegate.m */; };
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
@@ -68,6 +70,10 @@
 		0290298C1B81FBAA0079AF30 /* GroupAsyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAsyncVC.m; sourceTree = "<group>"; };
 		0290298E1B8201580079AF30 /* BarrierAsyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrierAsyncVC.h; sourceTree = "<group>"; };
 		0290298F1B8201580079AF30 /* BarrierAsyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrierAsyncVC.m; sourceTree = "<group>"; };
+		029029921B82E2B90079AF30 /* AnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationVC.h; sourceTree = "<group>"; };
+		029029931B82E2B90079AF30 /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
+		029029951B82E4010079AF30 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		029029961B82E4010079AF30 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 		02EF34541B7C79290099D4D9 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF34581B7C79290099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF34591B7C79290099D4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -201,6 +207,17 @@
 			name = Network;
 			sourceTree = "<group>";
 		};
+		029029911B82E29C0079AF30 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				029029921B82E2B90079AF30 /* AnimationVC.h */,
+				029029931B82E2B90079AF30 /* AnimationVC.m */,
+				029029951B82E4010079AF30 /* AnimationView.h */,
+				029029961B82E4010079AF30 /* AnimationView.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
 		02EF344B1B7C79290099D4D9 = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +249,7 @@
 				0217E9B41B7D79AF00ADCAF8 /* CollectionView */,
 				0217E9B51B7D79B300ADCAF8 /* ScrollView */,
 				021EAF651B7D838D00D73BD7 /* GCD */,
+				029029911B82E29C0079AF30 /* Animation */,
 				021EAF6F1B7DC16C00D73BD7 /* View */,
 				021EAF661B7D83BF00D73BD7 /* Helper */,
 				02EF34571B7C79290099D4D9 /* Supporting Files */,
@@ -381,7 +399,9 @@
 				029029871B81F4FD0079AF30 /* GCDVC.m in Sources */,
 				0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
+				029029971B82E4010079AF30 /* AnimationView.m in Sources */,
 				029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */,
+				029029941B82E2B90079AF30 /* AnimationVC.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
 				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
