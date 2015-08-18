@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"网络", @"选取图片", @"侧边栏", @"动画效果", @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"其他", nil];
     [self.tableView hideExtreCell];
 }
 
@@ -62,6 +62,8 @@
         [self performSegueWithIdentifier:@"GCD" sender:nil];
     }else if ([title isEqualToString:@"动画效果"]) {
         [self performSegueWithIdentifier:@"Animation" sender:nil];
+    }else if ([title isEqualToString:@"UIScrollView"]) {
+        [self performSegueWithIdentifier:@"ScrollView" sender:nil];
     }
 }
 

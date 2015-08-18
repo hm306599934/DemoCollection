@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-        data = [[NSArray alloc] initWithObjects:@"平移", nil];
+        data = [[NSArray alloc] initWithObjects:@"平移", @"旋转", @"变大", @"淡入", @"淡出",nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,9 +54,20 @@
     [tableView deselectRowAtIndexPath:indexPath animated: YES];
     NSString *title = [data objectAtIndex:indexPath.row];
     if ([title isEqualToString:@"平移"]) {
-        AnimationView *animationView = [[AnimationView alloc] initWithFrame:CGRectMake(0, 0, 100, 120) in: self.view];
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationMove];
         [animationView show];
-        
+    }else if ([title isEqualToString:@"旋转"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationRotate];
+        [animationView show];
+    }else if ([title isEqualToString:@"变大"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationBigger];
+        [animationView show];
+    }else if ([title isEqualToString:@"淡入"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationFadeIn];
+        [animationView show];
+    }else if ([title isEqualToString:@"淡出"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationFadeOut];
+        [animationView show];
     }
 }
 

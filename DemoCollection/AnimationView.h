@@ -8,9 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum {
+    AnimationMove,
+    AnimationRotate,
+    AnimationBigger,
+    AnimationFadeIn,
+    AnimationFadeOut
+} AnimationType;
+
 @interface AnimationView : UIView
 
--(id)initWithFrame: (CGRect)frame in:(UIView*)view;
+-(id)initWithFrame: (CGRect)frame in:(UIView*)view type:(AnimationType)type;
 -(void)show;
 -(void)dismiss;
 

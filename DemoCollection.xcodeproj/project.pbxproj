@@ -23,6 +23,8 @@
 		029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290298F1B8201580079AF30 /* BarrierAsyncVC.m */; };
 		029029941B82E2B90079AF30 /* AnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029931B82E2B90079AF30 /* AnimationVC.m */; };
 		029029971B82E4010079AF30 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029961B82E4010079AF30 /* AnimationView.m */; };
+		0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029991B8344580079AF30 /* ScrollViewVC.m */; };
+		0290299D1B8346950079AF30 /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290299C1B8346950079AF30 /* PageScrollView.m */; };
 		02EF345A1B7C79290099D4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34591B7C79290099D4D9 /* main.m */; };
 		02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF345C1B7C79290099D4D9 /* AppDelegate.m */; };
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
@@ -74,6 +76,10 @@
 		029029931B82E2B90079AF30 /* AnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationVC.m; sourceTree = "<group>"; };
 		029029951B82E4010079AF30 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
 		029029961B82E4010079AF30 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		029029981B8344580079AF30 /* ScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewVC.h; sourceTree = "<group>"; };
+		029029991B8344580079AF30 /* ScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewVC.m; sourceTree = "<group>"; };
+		0290299B1B8346950079AF30 /* PageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageScrollView.h; sourceTree = "<group>"; };
+		0290299C1B8346950079AF30 /* PageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollView.m; sourceTree = "<group>"; };
 		02EF34541B7C79290099D4D9 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF34581B7C79290099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF34591B7C79290099D4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -150,6 +156,10 @@
 		0217E9B51B7D79B300ADCAF8 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				029029981B8344580079AF30 /* ScrollViewVC.h */,
+				029029991B8344580079AF30 /* ScrollViewVC.m */,
+				0290299B1B8346950079AF30 /* PageScrollView.h */,
+				0290299C1B8346950079AF30 /* PageScrollView.m */,
 			);
 			name = ScrollView;
 			sourceTree = "<group>";
@@ -404,7 +414,9 @@
 				029029941B82E2B90079AF30 /* AnimationVC.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
 				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
+				0290299D1B8346950079AF30 /* PageScrollView.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
+				0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */,
 				0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
 				02EF345A1B7C79290099D4D9 /* main.m in Sources */,
