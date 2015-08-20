@@ -64,19 +64,42 @@
     }];
 }
 
-- (void)rotate {
+- (void)rotate{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self rotate1];
+    });
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self rotate2];
+    });
+}
+
+
+- (void)rotate1 {
     CGAffineTransform endAngle = CGAffineTransformMakeRotation(angle * (M_PI / 360.0f));
-    [UIView animateWithDuration:0.01 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
-        animationView.transform = endAngle;
+    [UIView animateWithDuration:0.01 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{        animationView.transform = endAngle;
     } completion:^(BOOL finished) {
         angle += 10;
         if (angle < 360 * 3) {
-            [self rotate];
-        }else{
+            [self rotate1];
+        }else {
             [self dismiss];
             animationView.transform = CGAffineTransformMakeRotation(0 * (M_PI / 360.0f));
         }
     }];
+}
+
+- (void)rotate2 {
+    UIImageView *arrowView = [[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width / 2 - 40, self.frame.size.height / 2 + 50, 80, 100)];
+    arrowView.image = [UIImage imageNamed: @"image_arrow"];
+    [self addSubview:arrowView];
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+    animation.fillMode = kCAFillModeForwards;
+    animation.removedOnCompletion = NO;
+    animation.fromValue =  @(-M_PI_2);
+    animation.toValue  = @(M_PI_2);
+    animation.duration  = 2.2f;
+    animation.repeatCount = 0;
+    [arrowView.layer addAnimation:animation forKey:@"keyFrameAnimation"];
 }
 
 - (void)bigger {

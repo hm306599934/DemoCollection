@@ -64,6 +64,8 @@
         [self performSegueWithIdentifier:@"Animation" sender:nil];
     }else if ([title isEqualToString:@"UIScrollView"]) {
         [self performSegueWithIdentifier:@"ScrollView" sender:nil];
+    }else if ([title isEqualToString:@"其他"]) {
+        [self performSegueWithIdentifier:@"Other" sender:nil];
     }
 }
 

@@ -25,6 +25,7 @@
 		029029971B82E4010079AF30 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029961B82E4010079AF30 /* AnimationView.m */; };
 		0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029991B8344580079AF30 /* ScrollViewVC.m */; };
 		0290299D1B8346950079AF30 /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290299C1B8346950079AF30 /* PageScrollView.m */; };
+		029029A81B846FD20079AF30 /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029A71B846FD20079AF30 /* OtherVC.m */; };
 		02EF345A1B7C79290099D4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34591B7C79290099D4D9 /* main.m */; };
 		02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF345C1B7C79290099D4D9 /* AppDelegate.m */; };
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
@@ -80,6 +81,8 @@
 		029029991B8344580079AF30 /* ScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewVC.m; sourceTree = "<group>"; };
 		0290299B1B8346950079AF30 /* PageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageScrollView.h; sourceTree = "<group>"; };
 		0290299C1B8346950079AF30 /* PageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollView.m; sourceTree = "<group>"; };
+		029029A61B846FD20079AF30 /* OtherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherVC.h; sourceTree = "<group>"; };
+		029029A71B846FD20079AF30 /* OtherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherVC.m; sourceTree = "<group>"; };
 		02EF34541B7C79290099D4D9 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF34581B7C79290099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF34591B7C79290099D4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -228,6 +231,16 @@
 			name = Animation;
 			sourceTree = "<group>";
 		};
+		029029A51B846FB80079AF30 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				029029A61B846FD20079AF30 /* OtherVC.h */,
+				029029A71B846FD20079AF30 /* OtherVC.m */,
+			);
+			name = Other;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		02EF344B1B7C79290099D4D9 = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +273,7 @@
 				0217E9B51B7D79B300ADCAF8 /* ScrollView */,
 				021EAF651B7D838D00D73BD7 /* GCD */,
 				029029911B82E29C0079AF30 /* Animation */,
+				029029A51B846FB80079AF30 /* Other */,
 				021EAF6F1B7DC16C00D73BD7 /* View */,
 				021EAF661B7D83BF00D73BD7 /* Helper */,
 				02EF34571B7C79290099D4D9 /* Supporting Files */,
@@ -405,6 +419,7 @@
 				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
 				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
+				029029A81B846FD20079AF30 /* OtherVC.m in Sources */,
 				02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */,
 				029029871B81F4FD0079AF30 /* GCDVC.m in Sources */,
 				0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */,

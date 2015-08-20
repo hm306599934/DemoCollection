@@ -85,6 +85,7 @@
                         <segue destination="dpk-F7-eV6" kind="show" identifier="GCD" id="YTK-j5-yDD"/>
                         <segue destination="t0x-rn-4oC" kind="show" identifier="Animation" id="gGZ-g9-SIU"/>
                         <segue destination="PWd-iq-QHa" kind="show" identifier="ScrollView" id="H6m-ex-IGS"/>
+                        <segue destination="RyF-Ci-jl8" kind="show" identifier="Other" id="O8W-Ig-1PB"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-SW-lCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -136,6 +137,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tvh-uK-fkD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1194" y="1727"/>
+        </scene>
+        <!--其他-->
+        <scene sceneID="xj3-dh-h4z">
+            <objects>
+                <viewController id="RyF-Ci-jl8" customClass="OtherVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gak-Rg-WJX"/>
+                        <viewControllerLayoutGuide type="bottom" id="s98-v3-Hef"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wZb-CQ-DgM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="其他" id="nuP-b9-jyA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yBv-LS-EJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1192" y="2391"/>
         </scene>
         <!--GCD-->
         <scene sceneID="x1v-ER-17a">

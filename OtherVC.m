@@ -1,22 +1,24 @@
 //
-//  GCDVC.m
+//  OtherVC.m
 //  DemoCollection
 //
-//  Created by trier on 17/8/15.
+//  Created by trier on 19/8/15.
 //  Copyright (c) 2015 Tony. All rights reserved.
 //
 
-#import "GCDVC.h"
+#import "OtherVC.h"
 
-@interface GCDVC ()
+@interface OtherVC ()
 
 @end
 
-@implementation GCDVC
+@implementation OtherVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(10, 200, 100, 100)];
+    textField.text = @"dsadas";
+    [self.view addSubview:textField];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,17 +35,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-- (IBAction)doAsyncTask:(id)sender {
-    [self performSegueWithIdentifier: @"Async" sender:nil];
-}
-
-- (IBAction)doGroupAsync:(id)sender {
-     [self performSegueWithIdentifier: @"GroupAsync" sender:nil];
-}
-
-- (IBAction)doBarrierAsync:(id)sender {
-    [self performSegueWithIdentifier: @"BarrierAsync"  sender:nil];
-}
 
 @end
