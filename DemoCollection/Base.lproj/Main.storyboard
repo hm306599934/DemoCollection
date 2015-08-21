@@ -86,6 +86,7 @@
                         <segue destination="t0x-rn-4oC" kind="show" identifier="Animation" id="gGZ-g9-SIU"/>
                         <segue destination="PWd-iq-QHa" kind="show" identifier="ScrollView" id="H6m-ex-IGS"/>
                         <segue destination="RyF-Ci-jl8" kind="show" identifier="Other" id="O8W-Ig-1PB"/>
+                        <segue destination="1i1-XP-wQv" kind="show" identifier="SelectPicture" id="eId-GP-1zf"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-SW-lCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -432,10 +433,10 @@
             </objects>
             <point key="canvasLocation" x="3261" y="381"/>
         </scene>
-        <!--View Controller-->
+        <!--选取图片-->
         <scene sceneID="jvC-yx-2VY">
             <objects>
-                <viewController id="1i1-XP-wQv" sceneMemberID="viewController">
+                <viewController id="1i1-XP-wQv" customClass="SelectPictureVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wQj-gf-7n0"/>
                         <viewControllerLayoutGuide type="bottom" id="aJw-no-fbg"/>
@@ -443,12 +444,49 @@
                     <view key="view" contentMode="scaleToFill" id="OV8-jf-48p">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v27-Mb-XCc">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_default_head" translatesAutoresizingMaskIntoConstraints="NO" id="tho-Ul-4r3">
+                                        <rect key="frame" x="200" y="50" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="HWl-Gf-amt"/>
+                                            <constraint firstAttribute="width" secondItem="tho-Ul-4r3" secondAttribute="height" multiplier="1:1" id="cmg-Kh-HPh"/>
+                                            <constraint firstAttribute="width" secondItem="tho-Ul-4r3" secondAttribute="height" id="nlr-Oe-tBG"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="HWl-Gf-amt"/>
+                                                <exclude reference="nlr-Oe-tBG"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tho-Ul-4r3" secondAttribute="width" multiplier="3" id="95M-Y0-JGT"/>
+                                    <constraint firstAttribute="centerX" secondItem="tho-Ul-4r3" secondAttribute="centerX" id="KTb-H7-igM"/>
+                                    <constraint firstItem="tho-Ul-4r3" firstAttribute="top" secondItem="v27-Mb-XCc" secondAttribute="top" constant="50" id="VjJ-BZ-shQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="v27-Mb-XCc" secondAttribute="trailing" id="Tpm-E4-w7J"/>
+                            <constraint firstAttribute="bottom" secondItem="v27-Mb-XCc" secondAttribute="bottom" id="nic-ep-aem"/>
+                            <constraint firstItem="v27-Mb-XCc" firstAttribute="top" secondItem="wQj-gf-7n0" secondAttribute="bottom" id="tQn-47-0ZJ"/>
+                            <constraint firstItem="v27-Mb-XCc" firstAttribute="leading" secondItem="OV8-jf-48p" secondAttribute="leading" id="xF4-2N-dVe"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="选取图片" id="jgd-oF-Vrs"/>
+                    <connections>
+                        <outlet property="mImageHead" destination="tho-Ul-4r3" id="ryC-u9-aLX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AFc-i4-ZvD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1934" y="2991"/>
+            <point key="canvasLocation" x="1134" y="3199"/>
         </scene>
         <!--回调-->
         <scene sceneID="eT3-LA-9Ow">
@@ -646,7 +684,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zi7-fZ-tGZ" id="fQt-Wi-KQd">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_default_head" translatesAutoresizingMaskIntoConstraints="NO" id="dW8-UI-PZc">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_default_head" translatesAutoresizingMaskIntoConstraints="NO" id="dW8-UI-PZc">
                                             <rect key="frame" x="10" y="8" width="49" height="49"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="dW8-UI-PZc" secondAttribute="height" multiplier="1:1" id="6S4-Dt-FNR"/>
@@ -706,6 +744,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image_default_head" width="512" height="511"/>
+        <image name="image_default_head" width="512" height="511"/>
     </resources>
 </document>

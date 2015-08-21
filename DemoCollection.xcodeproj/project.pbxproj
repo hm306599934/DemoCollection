@@ -26,6 +26,9 @@
 		0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029991B8344580079AF30 /* ScrollViewVC.m */; };
 		0290299D1B8346950079AF30 /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290299C1B8346950079AF30 /* PageScrollView.m */; };
 		029029A81B846FD20079AF30 /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029A71B846FD20079AF30 /* OtherVC.m */; };
+		029029BC1B85EE9D0079AF30 /* SelectPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029BB1B85EE9D0079AF30 /* SelectPictureVC.m */; };
+		02CF0C441B873D4500415CEC /* CustomSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CF0C431B873D4500415CEC /* CustomSelect.xib */; };
+		02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CF0C471B87430100415CEC /* CustomPickerView.m */; };
 		02EF345A1B7C79290099D4D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34591B7C79290099D4D9 /* main.m */; };
 		02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF345C1B7C79290099D4D9 /* AppDelegate.m */; };
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
@@ -83,6 +86,11 @@
 		0290299C1B8346950079AF30 /* PageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollView.m; sourceTree = "<group>"; };
 		029029A61B846FD20079AF30 /* OtherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherVC.h; sourceTree = "<group>"; };
 		029029A71B846FD20079AF30 /* OtherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherVC.m; sourceTree = "<group>"; };
+		029029BA1B85EE9D0079AF30 /* SelectPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPictureVC.h; sourceTree = "<group>"; };
+		029029BB1B85EE9D0079AF30 /* SelectPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPictureVC.m; sourceTree = "<group>"; };
+		02CF0C431B873D4500415CEC /* CustomSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSelect.xib; sourceTree = "<group>"; };
+		02CF0C461B87430100415CEC /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
+		02CF0C471B87430100415CEC /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
 		02EF34541B7C79290099D4D9 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF34581B7C79290099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF34591B7C79290099D4D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -196,6 +204,7 @@
 		021EAF6F1B7DC16C00D73BD7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				02CF0C451B8742D000415CEC /* PickerView */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -241,6 +250,44 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		029029B91B85EE370079AF30 /* SelectPicture */ = {
+			isa = PBXGroup;
+			children = (
+				029029BA1B85EE9D0079AF30 /* SelectPictureVC.h */,
+				029029BB1B85EE9D0079AF30 /* SelectPictureVC.m */,
+			);
+			name = SelectPicture;
+			sourceTree = "<group>";
+		};
+		02CF0C411B873CF200415CEC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */,
+				021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */,
+				021EAFD01B7DDD2900D73BD7 /* Security.framework */,
+				021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		02CF0C421B873D1200415CEC /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				02EF34661B7C79290099D4D9 /* LaunchScreen.xib */,
+				02CF0C431B873D4500415CEC /* CustomSelect.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		02CF0C451B8742D000415CEC /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				02CF0C461B87430100415CEC /* CustomPickerView.h */,
+				02CF0C471B87430100415CEC /* CustomPickerView.m */,
+			);
+			name = PickerView;
+			sourceTree = "<group>";
+		};
 		02EF344B1B7C79290099D4D9 = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +320,7 @@
 				0217E9B51B7D79B300ADCAF8 /* ScrollView */,
 				021EAF651B7D838D00D73BD7 /* GCD */,
 				029029911B82E29C0079AF30 /* Animation */,
+				029029B91B85EE370079AF30 /* SelectPicture */,
 				029029A51B846FB80079AF30 /* Other */,
 				021EAF6F1B7DC16C00D73BD7 /* View */,
 				021EAF661B7D83BF00D73BD7 /* Helper */,
@@ -284,11 +332,8 @@
 		02EF34571B7C79290099D4D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */,
-				021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */,
-				021EAFD01B7DDD2900D73BD7 /* Security.framework */,
-				021EAF6A1B7D9A7C00D73BD7 /* QuartzCore.framework */,
-				02EF34661B7C79290099D4D9 /* LaunchScreen.xib */,
+				02CF0C421B873D1200415CEC /* Interface */,
+				02CF0C411B873CF200415CEC /* Framework */,
 				02EF34611B7C79290099D4D9 /* Main.storyboard */,
 				02EF34641B7C79290099D4D9 /* Images.xcassets */,
 				02EF34581B7C79290099D4D9 /* Info.plist */,
@@ -394,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CF0C441B873D4500415CEC /* CustomSelect.xib in Resources */,
 				02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */,
 				02EF34681B7C79290099D4D9 /* LaunchScreen.xib in Resources */,
 				02EF34651B7C79290099D4D9 /* Images.xcassets in Resources */,
@@ -415,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */,
+				02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */,
 				02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */,
 				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
 				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
@@ -429,6 +476,7 @@
 				029029941B82E2B90079AF30 /* AnimationVC.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
 				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
+				029029BC1B85EE9D0079AF30 /* SelectPictureVC.m in Sources */,
 				0290299D1B8346950079AF30 /* PageScrollView.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
 				0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */,
