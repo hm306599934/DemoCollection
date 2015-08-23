@@ -87,6 +87,7 @@
                         <segue destination="PWd-iq-QHa" kind="show" identifier="ScrollView" id="H6m-ex-IGS"/>
                         <segue destination="RyF-Ci-jl8" kind="show" identifier="Other" id="O8W-Ig-1PB"/>
                         <segue destination="1i1-XP-wQv" kind="show" identifier="SelectPicture" id="eId-GP-1zf"/>
+                        <segue destination="VTu-RQ-Kbi" kind="show" identifier="Gesture" id="fkY-ov-YU9"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-SW-lCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -487,6 +488,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AFc-i4-ZvD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1134" y="3199"/>
+        </scene>
+        <!--手势-->
+        <scene sceneID="Aaf-QC-SXd">
+            <objects>
+                <viewController id="VTu-RQ-Kbi" customClass="GestureVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7B0-vx-b90"/>
+                        <viewControllerLayoutGuide type="bottom" id="cof-yl-zeH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kmn-Dp-0wc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Btf-ZM-0ac">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.18996602930000001" green="0.80740359090000002" blue="0.92361281319999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Btf-ZM-0ac" secondAttribute="height" multiplier="1:1" id="S7M-Dq-iSd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Btf-ZM-0ac" secondAttribute="centerX" id="2bo-qV-6DO"/>
+                            <constraint firstItem="Btf-ZM-0ac" firstAttribute="width" secondItem="kmn-Dp-0wc" secondAttribute="width" multiplier="1:2" id="Rmg-r9-t1s"/>
+                            <constraint firstAttribute="centerY" secondItem="Btf-ZM-0ac" secondAttribute="centerY" id="zGZ-vv-EXI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="手势" id="20S-3N-6PR"/>
+                    <connections>
+                        <outlet property="mView" destination="Btf-ZM-0ac" id="aEd-Nz-mxl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S34-Yz-ZCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1120" y="3915"/>
         </scene>
         <!--回调-->
         <scene sceneID="eT3-LA-9Ow">

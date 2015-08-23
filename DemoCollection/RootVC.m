@@ -66,6 +66,8 @@
         [self performSegueWithIdentifier:@"ScrollView" sender:nil];
     }else if ([title isEqualToString:@"选取图片"]) {
         [self performSegueWithIdentifier:@"SelectPicture" sender:nil];
+    }else if ([title isEqualToString:@"手势"]) {
+        [self performSegueWithIdentifier:@"Gesture" sender:nil];
     }else if ([title isEqualToString:@"其他"]) {
         [self performSegueWithIdentifier:@"Other" sender:nil];
     }

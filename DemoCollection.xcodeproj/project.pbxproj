@@ -39,6 +39,7 @@
 		02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34811B7C7A7C0099D4D9 /* DelegateVC.m */; };
 		02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34841B7C7AED0099D4D9 /* RootVC.m */; };
 		02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34871B7C81330099D4D9 /* UITableView+Helper.m */; };
+		EA7987511B8A241A00E84103 /* GestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7987501B8A241A00E84103 /* GestureVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		02EF34841B7C7AED0099D4D9 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
 		02EF34861B7C81330099D4D9 /* UITableView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Helper.h"; sourceTree = "<group>"; };
 		02EF34871B7C81330099D4D9 /* UITableView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Helper.m"; sourceTree = "<group>"; };
+		EA79874F1B8A241A00E84103 /* GestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVC.h; sourceTree = "<group>"; };
+		EA7987501B8A241A00E84103 /* GestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +324,7 @@
 				021EAF651B7D838D00D73BD7 /* GCD */,
 				029029911B82E29C0079AF30 /* Animation */,
 				029029B91B85EE370079AF30 /* SelectPicture */,
+				EA79874E1B8A23F400E84103 /* Gesture */,
 				029029A51B846FB80079AF30 /* Other */,
 				021EAF6F1B7DC16C00D73BD7 /* View */,
 				021EAF661B7D83BF00D73BD7 /* Helper */,
@@ -357,6 +361,15 @@
 				02EF34721B7C792A0099D4D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA79874E1B8A23F400E84103 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				EA79874F1B8A241A00E84103 /* GestureVC.h */,
+				EA7987501B8A241A00E84103 /* GestureVC.m */,
+			);
+			name = Gesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +421,7 @@
 				TargetAttributes = {
 					02EF34531B7C79290099D4D9 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8GHFUCR8WP;
 					};
 					02EF346C1B7C792A0099D4D9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -482,6 +496,7 @@
 				0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */,
 				0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
+				EA7987511B8A241A00E84103 /* GestureVC.m in Sources */,
 				02EF345A1B7C79290099D4D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,11 +625,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: mobile dahua (62BRLUN9V2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: fei Teng (HHBXN34XJ5)";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0b1d858-66f4-4a2e-a0d4-49c1c6d4e036";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -622,11 +638,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: mobile dahua (62BRLUN9V2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0b1d858-66f4-4a2e-a0d4-49c1c6d4e036";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
