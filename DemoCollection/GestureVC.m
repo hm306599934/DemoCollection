@@ -21,8 +21,6 @@
         UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGesture:)];
         [mView addGestureRecognizer:pan];
     
-    
-    
 //    UISwipeGestureRecognizer *swipeDown = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipe:)];
 //    [swipeDown setDirection:UISwipeGestureRecognizerDirectionDown];
 //    [mView addGestureRecognizer:swipeDown];
