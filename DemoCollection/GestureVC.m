@@ -5,7 +5,7 @@
 //  DemoCollection
 //
 //  Created by Tony on 8/23/15.
-//  Copyright (c) 2015 浙江大华. All rights reserved.
+//  Copyright (c) 2015 Tony. All rights reserved.
 //
 
 #import "GestureVC.h"
