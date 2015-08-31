@@ -68,6 +68,8 @@
         [self performSegueWithIdentifier:@"SelectPicture" sender:nil];
     }else if ([title isEqualToString:@"手势"]) {
         [self performSegueWithIdentifier:@"Gesture" sender:nil];
+    }else if ([title isEqualToString:@"上拉下拉"]) {
+        [self performSegueWithIdentifier:@"LoadMore" sender:nil];
     }else if ([title isEqualToString:@"其他"]) {
         [self performSegueWithIdentifier:@"Other" sender:nil];
     }

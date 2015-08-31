@@ -23,6 +23,33 @@
             </objects>
             <point key="canvasLocation" x="-164" y="549"/>
         </scene>
+        <!--上拉下拉-->
+        <scene sceneID="WUt-3w-M33">
+            <objects>
+                <tableViewController id="JkO-yn-zhi" customClass="LoadMoewVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2UJ-f9-80v">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="yQ6-Dk-aby">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yQ6-Dk-aby" id="5H7-vb-nVQ">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="JkO-yn-zhi" id="HRi-UL-3WS"/>
+                            <outlet property="delegate" destination="JkO-yn-zhi" id="v07-Uv-Dyy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="上拉下拉" id="DVY-rv-naZ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WWh-SO-ogq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="167" y="1340"/>
+        </scene>
         <!--Delegate-->
         <scene sceneID="mnc-Jn-xOY">
             <objects>
@@ -55,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SLX-p6-aTa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1873" y="-1107"/>
+            <point key="canvasLocation" x="1859" y="-1077"/>
         </scene>
         <!--列表-->
         <scene sceneID="YcT-pE-1xA">
@@ -88,6 +115,7 @@
                         <segue destination="RyF-Ci-jl8" kind="show" identifier="Other" id="O8W-Ig-1PB"/>
                         <segue destination="1i1-XP-wQv" kind="show" identifier="SelectPicture" id="eId-GP-1zf"/>
                         <segue destination="VTu-RQ-Kbi" kind="show" identifier="Gesture" id="fkY-ov-YU9"/>
+                        <segue destination="JkO-yn-zhi" kind="show" identifier="LoadMore" id="geb-55-BRU"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-SW-lCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -313,7 +341,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WI2-qw-vIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="381"/>
+            <point key="canvasLocation" x="1893" y="353"/>
         </scene>
         <!--异步任务组-->
         <scene sceneID="Dl9-iS-iWc">
@@ -372,7 +400,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vFb-vK-DU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2601" y="381"/>
+            <point key="canvasLocation" x="2579" y="353"/>
         </scene>
         <!--顺序异步任务-->
         <scene sceneID="2fb-UA-qpF">
@@ -432,7 +460,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fe1-E4-epO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3261" y="381"/>
+            <point key="canvasLocation" x="3249" y="353"/>
         </scene>
         <!--选取图片-->
         <scene sceneID="jvC-yx-2VY">
@@ -502,7 +530,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Btf-ZM-0ac">
-                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <rect key="frame" x="86" y="86" width="428" height="428"/>
                                 <color key="backgroundColor" red="0.18996602930000001" green="0.80740359090000002" blue="0.92361281319999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Btf-ZM-0ac" secondAttribute="height" multiplier="1:1" id="S7M-Dq-iSd"/>
@@ -512,7 +540,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Btf-ZM-0ac" secondAttribute="centerX" id="2bo-qV-6DO"/>
-                            <constraint firstItem="Btf-ZM-0ac" firstAttribute="width" secondItem="kmn-Dp-0wc" secondAttribute="width" multiplier="1:2" id="Rmg-r9-t1s"/>
+                            <constraint firstItem="Btf-ZM-0ac" firstAttribute="width" secondItem="kmn-Dp-0wc" secondAttribute="width" multiplier="1:1.4" id="Rmg-r9-t1s"/>
                             <constraint firstAttribute="centerY" secondItem="Btf-ZM-0ac" secondAttribute="centerY" id="zGZ-vv-EXI"/>
                         </constraints>
                     </view>
@@ -613,7 +641,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mrn-FJ-KHO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2573" y="-1094"/>
+            <point key="canvasLocation" x="2553" y="-1077"/>
         </scene>
         <!--TableView-->
         <scene sceneID="yZj-6I-xAa">
