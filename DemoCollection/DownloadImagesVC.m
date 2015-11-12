@@ -1,18 +1,14 @@
 //
-//  DownloadImagesVCTableViewController.m
+//  DownloadImagesVC
 //  DemoCollection
 //
-//  Created by trier on 12/11/2015.
-//  Copyright © 2015 浙江大华. All rights reserved.
+//  Created by Jimmy on 12/11/2015.
+//  Copyright © 2015 Jimmy. All rights reserved.
 //
 
-#import "DownloadImagesVCTableViewController.h"
+#import "DownloadImagesVC.h"
 
-@interface DownloadImagesVCTableViewController ()
-
-@end
-
-@implementation DownloadImagesVCTableViewController
+@implementation DownloadImagesVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,12 +28,10 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return 0;
 }
 

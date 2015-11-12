@@ -18,7 +18,7 @@
 		021EAFD31B7DDD3500D73BD7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD21B7DDD3500D73BD7 /* SystemConfiguration.framework */; };
 		021EAFD51B7DDD3D00D73BD7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */; };
 		026DDA951B94782C00FCB935 /* LoadMoewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 026DDA941B94782C00FCB935 /* LoadMoewVC.m */; };
-		0276CDCE1BF49F56007A7D87 /* DownloadImagesVCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276CDCD1BF49F56007A7D87 /* DownloadImagesVCTableViewController.m */; };
+		0276CDCE1BF49F56007A7D87 /* DownloadImagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276CDCD1BF49F56007A7D87 /* DownloadImagesVC.m */; };
 		029029871B81F4FD0079AF30 /* GCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029861B81F4FD0079AF30 /* GCDVC.m */; };
 		0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 029029891B81F6860079AF30 /* AsyncVC.m */; };
 		0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0290298C1B81FBAA0079AF30 /* GroupAsyncVC.m */; };
@@ -73,8 +73,8 @@
 		021EAFD41B7DDD3D00D73BD7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		026DDA931B94782C00FCB935 /* LoadMoewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoewVC.h; sourceTree = "<group>"; };
 		026DDA941B94782C00FCB935 /* LoadMoewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoewVC.m; sourceTree = "<group>"; };
-		0276CDCC1BF49F56007A7D87 /* DownloadImagesVCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImagesVCTableViewController.h; sourceTree = "<group>"; };
-		0276CDCD1BF49F56007A7D87 /* DownloadImagesVCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImagesVCTableViewController.m; sourceTree = "<group>"; };
+		0276CDCC1BF49F56007A7D87 /* DownloadImagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImagesVC.h; sourceTree = "<group>"; };
+		0276CDCD1BF49F56007A7D87 /* DownloadImagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImagesVC.m; sourceTree = "<group>"; };
 		029029851B81F4FD0079AF30 /* GCDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDVC.h; sourceTree = "<group>"; };
 		029029861B81F4FD0079AF30 /* GCDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDVC.m; sourceTree = "<group>"; };
 		029029881B81F6860079AF30 /* AsyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncVC.h; sourceTree = "<group>"; };
@@ -234,8 +234,8 @@
 		021EAF7C1B7DD8DC00D73BD7 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				0276CDCC1BF49F56007A7D87 /* DownloadImagesVCTableViewController.h */,
-				0276CDCD1BF49F56007A7D87 /* DownloadImagesVCTableViewController.m */,
+				0276CDCC1BF49F56007A7D87 /* DownloadImagesVC.h */,
+				0276CDCD1BF49F56007A7D87 /* DownloadImagesVC.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -496,7 +496,7 @@
 				02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */,
 				02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */,
 				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
-				0276CDCE1BF49F56007A7D87 /* DownloadImagesVCTableViewController.m in Sources */,
+				0276CDCE1BF49F56007A7D87 /* DownloadImagesVC.m in Sources */,
 				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
 				026DDA951B94782C00FCB935 /* LoadMoewVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
