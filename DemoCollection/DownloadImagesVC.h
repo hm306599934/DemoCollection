@@ -11,3 +11,16 @@
 @interface DownloadImagesVC : UITableViewController
 
 @end
+
+
+
+@interface DownloadImagesTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *mImageView;
+@property (weak, nonatomic) IBOutlet UILabel *mLabel;
+
+
+@end
+
+
+
