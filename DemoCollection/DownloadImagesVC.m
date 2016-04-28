@@ -8,7 +8,7 @@
 
 #import "DownloadImagesVC.h"
 #import "AFNetworking.h"
-#import "UIKit+AFNetworking/UIImageView+AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
 
 @implementation DownloadImagesVC
 {
