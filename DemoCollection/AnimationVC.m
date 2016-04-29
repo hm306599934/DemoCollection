@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-        data = [[NSArray alloc] initWithObjects:@"平移", @"旋转", @"变大", @"淡入", @"淡出",nil];
+        data = [[NSArray alloc] initWithObjects:@"平移", @"旋转", @"变大", @"淡入", @"淡出", @"动态按钮",nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -68,6 +68,8 @@
     }else if ([title isEqualToString:@"淡出"]) {
         AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationFadeOut];
         [animationView show];
+    }else if ([title isEqualToString:@"动态按钮"]) {
+        [self performSegueWithIdentifier:@"AnimationButton" sender:nil];
     }
 }
 

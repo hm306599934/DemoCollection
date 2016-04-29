@@ -2,7 +2,7 @@
 //  AnimationVC.h
 //  DemoCollection
 //
-//  Created by trier on 18/8/15.
+//  Created by Tony on 18/8/15.
 //  Copyright (c) 2015 Tony. All rights reserved.
 //
 
