@@ -43,7 +43,6 @@ class DynamicButton: UIButton {
         UIView.animateWithDuration(0.3) { 
             self.transform = CGAffineTransformMakeScale(0.9, 0.9)
         }
-        
     }
     
     func scaleToAnimation() {
