@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"手势", @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"手势", @"其他", nil];
     [self.tableView hideExtreCell];
 }
 
@@ -72,6 +72,8 @@
         [self performSegueWithIdentifier:@"LoadMore" sender:nil];
     }else if ([title isEqualToString:@"网络"]) {
         [self performSegueWithIdentifier:@"DownloadImage" sender:nil];
+    }else if ([title isEqualToString:@"KVO"]) {
+        [self performSegueWithIdentifier:@"KVO" sender:nil];
     }else if ([title isEqualToString:@"其他"]) {
         [self performSegueWithIdentifier:@"Other" sender:nil];
     }

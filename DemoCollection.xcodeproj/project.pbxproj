@@ -45,6 +45,8 @@
 		8435AC65FB4F805BB5615963 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4190366A33985D3019EBE923 /* Pods.framework */; };
 		BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */; };
 		BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */; };
+		BF45AD051D0BDE07006F5051 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD041D0BDE07006F5051 /* Person.m */; };
+		BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */; };
 		BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB73A7E1CD3556A0049035E /* CircleLayer.swift */; };
 		EA7987511B8A241A00E84103 /* GestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7987501B8A241A00E84103 /* GestureVC.m */; };
 /* End PBXBuildFile section */
@@ -128,6 +130,10 @@
 		BF0A99E31CD203A000F68EE5 /* DemoCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoCollection-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationButtonVC.swift; sourceTree = "<group>"; };
 		BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButton.swift; sourceTree = "<group>"; };
+		BF45AD031D0BDE07006F5051 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BF45AD041D0BDE07006F5051 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BF45AD061D0BDE31006F5051 /* KeyAndValueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAndValueVC.h; sourceTree = "<group>"; };
+		BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAndValueVC.m; sourceTree = "<group>"; };
 		BFB73A7E1CD3556A0049035E /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
 		EA79874F1B8A241A00E84103 /* GestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVC.h; sourceTree = "<group>"; };
 		EA7987501B8A241A00E84103 /* GestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureVC.m; sourceTree = "<group>"; };
@@ -351,6 +357,7 @@
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
 				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
 				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
+				BF45AD021D0BD703006F5051 /* KVO */,
 				021EAF7C1B7DD8DC00D73BD7 /* Network */,
 				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
 				0217E9B31B7CB33800ADCAF8 /* TableView */,
@@ -417,6 +424,17 @@
 				BFB73A7E1CD3556A0049035E /* CircleLayer.swift */,
 			);
 			name = DynamicButton;
+			sourceTree = "<group>";
+		};
+		BF45AD021D0BD703006F5051 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				BF45AD031D0BDE07006F5051 /* Person.h */,
+				BF45AD041D0BDE07006F5051 /* Person.m */,
+				BF45AD061D0BDE31006F5051 /* KeyAndValueVC.h */,
+				BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */,
+			);
+			name = KVO;
 			sourceTree = "<group>";
 		};
 		CE06A5CB50C3666DA4E4AFC9 /* Frameworks */ = {
@@ -607,6 +625,7 @@
 				BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
 				029029971B82E4010079AF30 /* AnimationView.m in Sources */,
+				BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */,
 				029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */,
 				029029941B82E2B90079AF30 /* AnimationVC.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
@@ -615,6 +634,7 @@
 				0290299D1B8346950079AF30 /* PageScrollView.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
 				BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */,
+				BF45AD051D0BDE07006F5051 /* Person.m in Sources */,
 				0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */,
 				0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
