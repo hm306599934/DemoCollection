@@ -42,12 +42,16 @@
 		02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34811B7C7A7C0099D4D9 /* DelegateVC.m */; };
 		02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34841B7C7AED0099D4D9 /* RootVC.m */; };
 		02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34871B7C81330099D4D9 /* UITableView+Helper.m */; };
-		8435AC65FB4F805BB5615963 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4190366A33985D3019EBE923 /* Pods.framework */; };
 		BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */; };
 		BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */; };
 		BF45AD051D0BDE07006F5051 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD041D0BDE07006F5051 /* Person.m */; };
 		BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */; };
+		BF47D12C1D0D81690041E989 /* DesignPatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12B1D0D81690041E989 /* DesignPatternVC.swift */; };
+		BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12D1D0D838D0041E989 /* CanvasVC.swift */; };
+		BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12F1D0D83B10041E989 /* PaletteVC.swift */; };
+		BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */; };
 		BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB73A7E1CD3556A0049035E /* CircleLayer.swift */; };
+		C3558194FB1F07B28789C800 /* Pods_DemoCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932184C97FE560B60172734D /* Pods_DemoCollection.framework */; };
 		EA7987511B8A241A00E84103 /* GestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7987501B8A241A00E84103 /* GestureVC.m */; };
 /* End PBXBuildFile section */
 
@@ -126,7 +130,9 @@
 		02EF34861B7C81330099D4D9 /* UITableView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Helper.h"; sourceTree = "<group>"; };
 		02EF34871B7C81330099D4D9 /* UITableView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Helper.m"; sourceTree = "<group>"; };
 		4190366A33985D3019EBE923 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91FD71A6095CC74BAF166447 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		77BC2493EC6E60D0FD5E0FE8 /* Pods-DemoCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		932184C97FE560B60172734D /* Pods_DemoCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC2E71CF74CB4D54A3A1893 /* Pods-DemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection.release.xcconfig"; sourceTree = "<group>"; };
 		BF0A99E31CD203A000F68EE5 /* DemoCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoCollection-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationButtonVC.swift; sourceTree = "<group>"; };
 		BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButton.swift; sourceTree = "<group>"; };
@@ -134,10 +140,13 @@
 		BF45AD041D0BDE07006F5051 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BF45AD061D0BDE31006F5051 /* KeyAndValueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAndValueVC.h; sourceTree = "<group>"; };
 		BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAndValueVC.m; sourceTree = "<group>"; };
+		BF47D12B1D0D81690041E989 /* DesignPatternVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignPatternVC.swift; sourceTree = "<group>"; };
+		BF47D12D1D0D838D0041E989 /* CanvasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasVC.swift; sourceTree = "<group>"; };
+		BF47D12F1D0D83B10041E989 /* PaletteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteVC.swift; sourceTree = "<group>"; };
+		BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailVC.swift; sourceTree = "<group>"; };
 		BFB73A7E1CD3556A0049035E /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
 		EA79874F1B8A241A00E84103 /* GestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVC.h; sourceTree = "<group>"; };
 		EA7987501B8A241A00E84103 /* GestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureVC.m; sourceTree = "<group>"; };
-		F8924227A04670B43E791057 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +158,7 @@
 				021EAFD31B7DDD3500D73BD7 /* SystemConfiguration.framework in Frameworks */,
 				021EAFD11B7DDD2900D73BD7 /* Security.framework in Frameworks */,
 				021EAF6B1B7D9A7C00D73BD7 /* QuartzCore.framework in Frameworks */,
-				8435AC65FB4F805BB5615963 /* Pods.framework in Frameworks */,
+				C3558194FB1F07B28789C800 /* Pods_DemoCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,8 +345,8 @@
 				02EF34561B7C79290099D4D9 /* DemoCollection */,
 				02EF34701B7C792A0099D4D9 /* DemoCollectionTests */,
 				02EF34551B7C79290099D4D9 /* Products */,
-				06965C3046240417071B99BD /* Pods */,
 				CE06A5CB50C3666DA4E4AFC9 /* Frameworks */,
+				0705F3DC4786955C3D5BAB73 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -357,6 +366,7 @@
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
 				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
 				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
+				BF47D1291D0D80A80041E989 /* DesignPattern */,
 				BF45AD021D0BD703006F5051 /* KVO */,
 				021EAF7C1B7DD8DC00D73BD7 /* Network */,
 				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
@@ -408,11 +418,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		06965C3046240417071B99BD /* Pods */ = {
+		0705F3DC4786955C3D5BAB73 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8924227A04670B43E791057 /* Pods.debug.xcconfig */,
-				91FD71A6095CC74BAF166447 /* Pods.release.xcconfig */,
+				77BC2493EC6E60D0FD5E0FE8 /* Pods-DemoCollection.debug.xcconfig */,
+				BDC2E71CF74CB4D54A3A1893 /* Pods-DemoCollection.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -437,10 +447,30 @@
 			name = KVO;
 			sourceTree = "<group>";
 		};
+		BF47D1291D0D80A80041E989 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				BF47D12A1D0D80D40041E989 /* Paint */,
+				BF47D12B1D0D81690041E989 /* DesignPatternVC.swift */,
+			);
+			name = DesignPattern;
+			sourceTree = "<group>";
+		};
+		BF47D12A1D0D80D40041E989 /* Paint */ = {
+			isa = PBXGroup;
+			children = (
+				BF47D12D1D0D838D0041E989 /* CanvasVC.swift */,
+				BF47D12F1D0D83B10041E989 /* PaletteVC.swift */,
+				BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */,
+			);
+			name = Paint;
+			sourceTree = "<group>";
+		};
 		CE06A5CB50C3666DA4E4AFC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				4190366A33985D3019EBE923 /* Pods.framework */,
+				932184C97FE560B60172734D /* Pods_DemoCollection.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -461,12 +491,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02EF34771B7C792A0099D4D9 /* Build configuration list for PBXNativeTarget "DemoCollection" */;
 			buildPhases = (
-				CE857D635D9813F8988ADB09 /* Check Pods Manifest.lock */,
+				61436CB9E762C418C2DEEDCE /* 📦 Check Pods Manifest.lock */,
 				02EF34501B7C79290099D4D9 /* Sources */,
 				02EF34511B7C79290099D4D9 /* Frameworks */,
 				02EF34521B7C79290099D4D9 /* Resources */,
-				FDBBA3286082355B727FEA44 /* Embed Pods Frameworks */,
-				DD089A489D700E03023CE407 /* Copy Pods Resources */,
+				01A0D05D199A29659846D219 /* 📦 Embed Pods Frameworks */,
+				B4A2BBED46AC2306074D4852 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -557,14 +587,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CE857D635D9813F8988ADB09 /* Check Pods Manifest.lock */ = {
+		01A0D05D199A29659846D219 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61436CB9E762C418C2DEEDCE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,34 +617,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DD089A489D700E03023CE407 /* Copy Pods Resources */ = {
+		B4A2BBED46AC2306074D4852 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FDBBA3286082355B727FEA44 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollection/Pods-DemoCollection-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -610,6 +640,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */,
+				BF47D12C1D0D81690041E989 /* DesignPatternVC.swift in Sources */,
 				02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */,
 				02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */,
 				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
@@ -618,6 +649,7 @@
 				026DDA951B94782C00FCB935 /* LoadMoewVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
 				029029A81B846FD20079AF30 /* OtherVC.m in Sources */,
+				BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */,
 				02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */,
 				029029871B81F4FD0079AF30 /* GCDVC.m in Sources */,
 				BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */,
@@ -625,12 +657,14 @@
 				BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
 				029029971B82E4010079AF30 /* AnimationView.m in Sources */,
+				BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */,
 				BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */,
 				029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */,
 				029029941B82E2B90079AF30 /* AnimationVC.m in Sources */,
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
 				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
 				029029BC1B85EE9D0079AF30 /* SelectPictureVC.m in Sources */,
+				BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */,
 				0290299D1B8346950079AF30 /* PageScrollView.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
 				BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */,
@@ -766,7 +800,7 @@
 		};
 		02EF34781B7C792A0099D4D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8924227A04670B43E791057 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 77BC2493EC6E60D0FD5E0FE8 /* Pods-DemoCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -784,7 +818,7 @@
 		};
 		02EF34791B7C792A0099D4D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91FD71A6095CC74BAF166447 /* Pods.release.xcconfig */;
+			baseConfigurationReference = BDC2E71CF74CB4D54A3A1893 /* Pods-DemoCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

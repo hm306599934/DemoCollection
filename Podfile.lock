@@ -20,14 +20,27 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - RxBlocking (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.5.0)
   - SnapKit (0.20.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
-  - SnapKit (= 0.20.0)
+  - RxBlocking (~> 2.5.0)
+  - RxCocoa (~> 2.5.0)
+  - RxSwift (~> 2.0)
+  - SnapKit (~> 0.20.0)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  RxBlocking: 595d9ab56dde6b00beaa5aba40e95b150d2135f1
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
   SnapKit: 5fce3c1bbbf1fbd31de9aa92f33eb9fa03f15650
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 3cac445a836e8adf07d5f8c82612f1b0f089e91c
+
+COCOAPODS: 1.0.0

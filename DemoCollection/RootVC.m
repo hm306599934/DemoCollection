@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"手势", @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"手势", @"设计模式", @"其他", nil];
     [self.tableView hideExtreCell];
 }
 
@@ -54,27 +54,53 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated: YES];
     NSString *title = [data objectAtIndex:indexPath.row];
-    if ([title isEqualToString:@"回调"]) {
+    
+    if ([title isEqualToString:@"回调"])
+    {
         [self performSegueWithIdentifier:@"CallBack" sender:nil];
-    }else if ([title isEqualToString:@"UITableView"]) {
+    }
+    else if ([title isEqualToString:@"UITableView"])
+    {
         [self performSegueWithIdentifier:@"TableView" sender:nil];
-    }else if ([title isEqualToString:@"GCD"]) {
+    }
+    else if ([title isEqualToString:@"GCD"])
+    {
         [self performSegueWithIdentifier:@"GCD" sender:nil];
-    }else if ([title isEqualToString:@"动画效果"]) {
+    }
+    else if ([title isEqualToString:@"动画效果"])
+    {
         [self performSegueWithIdentifier:@"Animation" sender:nil];
-    }else if ([title isEqualToString:@"UIScrollView"]) {
+    }
+    else if ([title isEqualToString:@"UIScrollView"])
+    {
         [self performSegueWithIdentifier:@"ScrollView" sender:nil];
-    }else if ([title isEqualToString:@"选取图片"]) {
+    }
+    else if ([title isEqualToString:@"选取图片"])
+    {
         [self performSegueWithIdentifier:@"SelectPicture" sender:nil];
-    }else if ([title isEqualToString:@"手势"]) {
+    }
+    else if ([title isEqualToString:@"手势"])
+    {
         [self performSegueWithIdentifier:@"Gesture" sender:nil];
-    }else if ([title isEqualToString:@"上拉下拉"]) {
+    }
+    else if ([title isEqualToString:@"上拉下拉"])
+    {
         [self performSegueWithIdentifier:@"LoadMore" sender:nil];
-    }else if ([title isEqualToString:@"网络"]) {
+    }
+    else if ([title isEqualToString:@"网络"])
+    {
         [self performSegueWithIdentifier:@"DownloadImage" sender:nil];
-    }else if ([title isEqualToString:@"KVO"]) {
+    }
+    else if ([title isEqualToString:@"KVO"])
+    {
         [self performSegueWithIdentifier:@"KVO" sender:nil];
-    }else if ([title isEqualToString:@"其他"]) {
+    }
+    else if ([title isEqualToString:@"设计模式"])
+    {
+        [self performSegueWithIdentifier:@"DesignPattern" sender:nil];
+    }
+    else if ([title isEqualToString:@"其他"])
+    {
         [self performSegueWithIdentifier:@"Other" sender:nil];
     }
 }
