@@ -386,7 +386,7 @@
                     <view key="view" contentMode="scaleToFill" id="a09-mI-8r1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="动态按钮" id="U13-bR-OvW"/>
                 </viewController>
@@ -611,7 +611,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="JNK-RD-Xmp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection id="xJY-lL-LIk">
                                 <cells>
@@ -626,7 +626,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="270" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -649,10 +649,10 @@
             </objects>
             <point key="canvasLocation" x="1184" y="4421"/>
         </scene>
-        <!--View Controller-->
+        <!--画图-->
         <scene sceneID="ujI-d4-Ybn">
             <objects>
-                <viewController id="KRp-3Z-FSY" sceneMemberID="viewController">
+                <viewController id="KRp-3Z-FSY" customClass="CanvasVC" customModule="DemoCollection" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U8c-34-j9o"/>
                         <viewControllerLayoutGuide type="bottom" id="fMn-hP-INq"/>
@@ -662,10 +662,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="画图" id="ZGH-Uk-Jt2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAP-AR-d97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1655" y="4421"/>
+            <point key="canvasLocation" x="1604" y="4421"/>
         </scene>
         <!--Download ImagesVC-->
         <scene sceneID="dHf-Ur-R7L">
