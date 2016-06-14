@@ -37,7 +37,6 @@
 		02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34611B7C79290099D4D9 /* Main.storyboard */; };
 		02EF34651B7C79290099D4D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34641B7C79290099D4D9 /* Images.xcassets */; };
 		02EF34681B7C79290099D4D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34661B7C79290099D4D9 /* LaunchScreen.xib */; };
-		02EF34741B7C792A0099D4D9 /* DemoCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34731B7C792A0099D4D9 /* DemoCollectionTests.m */; };
 		02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF347E1B7C7A690099D4D9 /* CallBackVC.m */; };
 		02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34811B7C7A7C0099D4D9 /* DelegateVC.m */; };
 		02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34841B7C7AED0099D4D9 /* RootVC.m */; };
@@ -119,8 +118,6 @@
 		02EF34641B7C79290099D4D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		02EF34671B7C79290099D4D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		02EF346D1B7C792A0099D4D9 /* DemoCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02EF34721B7C792A0099D4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02EF34731B7C792A0099D4D9 /* DemoCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionTests.m; sourceTree = "<group>"; };
 		02EF347D1B7C7A690099D4D9 /* CallBackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallBackVC.h; sourceTree = "<group>"; };
 		02EF347E1B7C7A690099D4D9 /* CallBackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallBackVC.m; sourceTree = "<group>"; };
 		02EF34801B7C7A7C0099D4D9 /* DelegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateVC.h; sourceTree = "<group>"; };
@@ -343,7 +340,6 @@
 			isa = PBXGroup;
 			children = (
 				02EF34561B7C79290099D4D9 /* DemoCollection */,
-				02EF34701B7C792A0099D4D9 /* DemoCollectionTests */,
 				02EF34551B7C79290099D4D9 /* Products */,
 				CE06A5CB50C3666DA4E4AFC9 /* Frameworks */,
 				0705F3DC4786955C3D5BAB73 /* Pods */,
@@ -397,23 +393,6 @@
 				02EF34581B7C79290099D4D9 /* Info.plist */,
 				02EF34591B7C79290099D4D9 /* main.m */,
 				02C212D51BF4AE5400079886 /* ImageUrl.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		02EF34701B7C792A0099D4D9 /* DemoCollectionTests */ = {
-			isa = PBXGroup;
-			children = (
-				02EF34731B7C792A0099D4D9 /* DemoCollectionTests.m */,
-				02EF34711B7C792A0099D4D9 /* Supporting Files */,
-			);
-			path = DemoCollectionTests;
-			sourceTree = "<group>";
-		};
-		02EF34711B7C792A0099D4D9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				02EF34721B7C792A0099D4D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -681,7 +660,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02EF34741B7C792A0099D4D9 /* DemoCollectionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
