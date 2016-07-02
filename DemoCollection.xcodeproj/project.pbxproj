@@ -43,13 +43,18 @@
 		02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34871B7C81330099D4D9 /* UITableView+Helper.m */; };
 		BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */; };
 		BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */; };
+		BF2487131D275A2C0075A88D /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2487121D275A2C0075A88D /* CanvasView.swift */; };
+		BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2487141D2797B50075A88D /* CanvasModel.swift */; };
 		BF45AD051D0BDE07006F5051 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD041D0BDE07006F5051 /* Person.m */; };
 		BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */; };
-		BF47D12C1D0D81690041E989 /* DesignPatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12B1D0D81690041E989 /* DesignPatternVC.swift */; };
 		BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12D1D0D838D0041E989 /* CanvasVC.swift */; };
 		BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12F1D0D83B10041E989 /* PaletteVC.swift */; };
 		BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */; };
+		BFA849D61D13D63A000BF5CA /* DrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA849D51D13D63A000BF5CA /* DrawVC.m */; };
+		BFA849D91D13D7A8000BF5CA /* ProcessCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */; };
 		BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB73A7E1CD3556A0049035E /* CircleLayer.swift */; };
+		BFEE05721D13F86A00D574BC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE05711D13F86A00D574BC /* DrawView.swift */; };
+		BFEE05861D1A22FA00D574BC /* StrategyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE05851D1A22FA00D574BC /* StrategyVC.swift */; };
 		C3558194FB1F07B28789C800 /* Pods_DemoCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932184C97FE560B60172734D /* Pods_DemoCollection.framework */; };
 		EA7987511B8A241A00E84103 /* GestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7987501B8A241A00E84103 /* GestureVC.m */; };
 /* End PBXBuildFile section */
@@ -133,15 +138,22 @@
 		BF0A99E31CD203A000F68EE5 /* DemoCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoCollection-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationButtonVC.swift; sourceTree = "<group>"; };
 		BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButton.swift; sourceTree = "<group>"; };
+		BF2487121D275A2C0075A88D /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		BF2487141D2797B50075A88D /* CanvasModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasModel.swift; sourceTree = "<group>"; };
 		BF45AD031D0BDE07006F5051 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		BF45AD041D0BDE07006F5051 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BF45AD061D0BDE31006F5051 /* KeyAndValueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAndValueVC.h; sourceTree = "<group>"; };
 		BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAndValueVC.m; sourceTree = "<group>"; };
-		BF47D12B1D0D81690041E989 /* DesignPatternVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignPatternVC.swift; sourceTree = "<group>"; };
 		BF47D12D1D0D838D0041E989 /* CanvasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasVC.swift; sourceTree = "<group>"; };
 		BF47D12F1D0D83B10041E989 /* PaletteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteVC.swift; sourceTree = "<group>"; };
 		BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailVC.swift; sourceTree = "<group>"; };
+		BFA849D41D13D63A000BF5CA /* DrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawVC.h; sourceTree = "<group>"; };
+		BFA849D51D13D63A000BF5CA /* DrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawVC.m; sourceTree = "<group>"; };
+		BFA849D71D13D7A8000BF5CA /* ProcessCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessCircleView.h; sourceTree = "<group>"; };
+		BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessCircleView.m; sourceTree = "<group>"; };
 		BFB73A7E1CD3556A0049035E /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		BFEE05711D13F86A00D574BC /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		BFEE05851D1A22FA00D574BC /* StrategyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyVC.swift; sourceTree = "<group>"; };
 		EA79874F1B8A241A00E84103 /* GestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVC.h; sourceTree = "<group>"; };
 		EA7987501B8A241A00E84103 /* GestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -362,7 +374,8 @@
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
 				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
 				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
-				BF47D1291D0D80A80041E989 /* DesignPattern */,
+				BFA849D31D13D561000BF5CA /* Draw */,
+				BF47D1291D0D80A80041E989 /* Paint */,
 				BF45AD021D0BD703006F5051 /* KVO */,
 				021EAF7C1B7DD8DC00D73BD7 /* Network */,
 				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
@@ -377,6 +390,7 @@
 				021EAF6F1B7DC16C00D73BD7 /* View */,
 				021EAF661B7D83BF00D73BD7 /* Helper */,
 				026DDA921B9477E200FCB935 /* LoadMore */,
+				BFEE05821D1A1F1000D574BC /* DesignPattern */,
 				02EF34571B7C79290099D4D9 /* Supporting Files */,
 			);
 			path = DemoCollection;
@@ -426,23 +440,52 @@
 			name = KVO;
 			sourceTree = "<group>";
 		};
-		BF47D1291D0D80A80041E989 /* DesignPattern */ = {
-			isa = PBXGroup;
-			children = (
-				BF47D12A1D0D80D40041E989 /* Paint */,
-				BF47D12B1D0D81690041E989 /* DesignPatternVC.swift */,
-			);
-			name = DesignPattern;
-			sourceTree = "<group>";
-		};
-		BF47D12A1D0D80D40041E989 /* Paint */ = {
+		BF47D1291D0D80A80041E989 /* Paint */ = {
 			isa = PBXGroup;
 			children = (
 				BF47D12D1D0D838D0041E989 /* CanvasVC.swift */,
 				BF47D12F1D0D83B10041E989 /* PaletteVC.swift */,
 				BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */,
+				BF2487121D275A2C0075A88D /* CanvasView.swift */,
+				BF2487141D2797B50075A88D /* CanvasModel.swift */,
 			);
 			name = Paint;
+			sourceTree = "<group>";
+		};
+		BFA849D31D13D561000BF5CA /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				BFA849D41D13D63A000BF5CA /* DrawVC.h */,
+				BFA849D51D13D63A000BF5CA /* DrawVC.m */,
+				BFA849D71D13D7A8000BF5CA /* ProcessCircleView.h */,
+				BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */,
+				BFEE05711D13F86A00D574BC /* DrawView.swift */,
+			);
+			name = Draw;
+			sourceTree = "<group>";
+		};
+		BFEE05821D1A1F1000D574BC /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE05841D1A20E900D574BC /* Strategy */,
+				BFEE05831D1A20A800D574BC /* FactoryMethod */,
+			);
+			name = DesignPattern;
+			sourceTree = "<group>";
+		};
+		BFEE05831D1A20A800D574BC /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		BFEE05841D1A20E900D574BC /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE05851D1A22FA00D574BC /* StrategyVC.swift */,
+			);
+			name = Strategy;
 			sourceTree = "<group>";
 		};
 		CE06A5CB50C3666DA4E4AFC9 /* Frameworks */ = {
@@ -516,7 +559,7 @@
 				TargetAttributes = {
 					02EF34531B7C79290099D4D9 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 8GHFUCR8WP;
+						DevelopmentTeam = EJ7PPF7RZJ;
 					};
 					02EF346C1B7C792A0099D4D9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -619,21 +662,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */,
-				BF47D12C1D0D81690041E989 /* DesignPatternVC.swift in Sources */,
 				02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */,
+				BF2487131D275A2C0075A88D /* CanvasView.swift in Sources */,
 				02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */,
 				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
 				0276CDCE1BF49F56007A7D87 /* DownloadImagesVC.m in Sources */,
 				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
 				026DDA951B94782C00FCB935 /* LoadMoewVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
+				BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */,
 				029029A81B846FD20079AF30 /* OtherVC.m in Sources */,
+				BFEE05861D1A22FA00D574BC /* StrategyVC.swift in Sources */,
 				BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */,
 				02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */,
 				029029871B81F4FD0079AF30 /* GCDVC.m in Sources */,
 				BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */,
 				0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */,
 				BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */,
+				BFEE05721D13F86A00D574BC /* DrawView.swift in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
 				029029971B82E4010079AF30 /* AnimationView.m in Sources */,
 				BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */,
@@ -643,11 +689,13 @@
 				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
 				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
 				029029BC1B85EE9D0079AF30 /* SelectPictureVC.m in Sources */,
+				BFA849D91D13D7A8000BF5CA /* ProcessCircleView.m in Sources */,
 				BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */,
 				0290299D1B8346950079AF30 /* PageScrollView.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
 				BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */,
 				BF45AD051D0BDE07006F5051 /* Person.m in Sources */,
+				BFA849D61D13D63A000BF5CA /* DrawVC.m in Sources */,
 				0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */,
 				0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
@@ -782,13 +830,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: mobile dahua (62BRLUN9V2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mobile dahua (62BRLUN9V2)";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0b1d858-66f4-4a2e-a0d4-49c1c6d4e036";
+				PROVISIONING_PROFILE = "0928c607-e31f-4a87-b44e-2eb8afc68463";
+				PROVISIONING_PROFILE_SPECIFIER = 9QZ8T7G56W/All_Device_Test_2015_09_09;
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoCollection/DemoCollection-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -800,13 +849,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: mobile dahua (62BRLUN9V2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mobile dahua (62BRLUN9V2)";
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0b1d858-66f4-4a2e-a0d4-49c1c6d4e036";
+				PROVISIONING_PROFILE = "0928c607-e31f-4a87-b44e-2eb8afc68463";
+				PROVISIONING_PROFILE_SPECIFIER = 9QZ8T7G56W/All_Device_Test_2015_09_09;
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoCollection/DemoCollection-Bridging-Header.h";
 			};
 			name = Release;

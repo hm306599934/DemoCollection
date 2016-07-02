@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"手势", @"设计模式", @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"手势", @"设计模式", @"画图", @"其他", nil];
     [self.tableView hideExtreCell];
 
 }
@@ -99,6 +99,10 @@
     else if ([title isEqualToString:@"设计模式"])
     {
         [self performSegueWithIdentifier:@"DesignPattern" sender:nil];
+    }
+    else if ([title isEqualToString:@"画图"])
+    {
+        [self performSegueWithIdentifier:@"Draw" sender:nil];
     }
     else if ([title isEqualToString:@"其他"])
     {
