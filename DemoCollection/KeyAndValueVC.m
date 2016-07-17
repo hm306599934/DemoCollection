@@ -59,7 +59,7 @@ static void *child2Context = &child2Context;
     [self setValue:@"dasds" forKeyPath:@"person1.name"];
     [person1 setValue:@"1111" forKey:@"name"];
     [person2 setValue:@"2222" forKey:@"name"];
-    NSLog(person1.name);
+    NSLog(@"%@",person1.name);
 }
 
 + (BOOL)automaticallyNotifiesObserversForKey:(NSString *)key {

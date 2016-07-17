@@ -2,7 +2,7 @@
 //  RootVC.m
 //  DemoCollection
 //
-//  Created by trier on 13/8/15.
+//  Created by Jimmy on 13/8/15.
 //  Copyright (c) 2015 Tony. All rights reserved.
 //
 
@@ -20,13 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏", @"动画效果", @"手势", @"设计模式", @"画图", @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"设计模式", @"Core Graphic", @"AVFoundation", @"动画效果", @"KVO", @"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏",  @"手势",  @"其他", nil];
     [self.tableView hideExtreCell];
 
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
+    UIGestureRecognizer
     // Dispose of any resources that can be recreated.
 }
 
@@ -108,6 +110,11 @@
     {
         [self performSegueWithIdentifier:@"Other" sender:nil];
     }
+    else if ([title isEqualToString:@"Core Graphic"])
+    {
+        [self performSegueWithIdentifier:@"CoreGraphic" sender:nil];
+    }
+    
 }
 
 @end

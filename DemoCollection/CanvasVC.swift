@@ -32,7 +32,9 @@ class CanvasVC: UIViewController {
     }
     
     @IBAction func setAction(sender: UIButton) {
-    
+        let setView = CanvasSetView(frame: self.view.frame)
+        self.view.addSubview(setView)
+        setView.show()
     }
     
     @IBAction func frontAction(sender: UIButton) {

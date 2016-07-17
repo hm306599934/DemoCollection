@@ -2,7 +2,7 @@
 //  AnimationVC.m
 //  DemoCollection
 //
-//  Created by trier on 18/8/15.
+//  Created by Jimmy on 18/8/15.
 //  Copyright (c) 2015 Tony. All rights reserved.
 //
 
@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-        data = [[NSArray alloc] initWithObjects:@"平移", @"旋转", @"变大", @"淡入", @"淡出", @"动态按钮",nil];
+    data = [[NSArray alloc] initWithObjects:@"平移", @"旋转", @"变大", @"淡入", @"淡出", @"动态按钮", @"Core Animation",nil];
 }
 
 - (void)didReceiveMemoryWarning {

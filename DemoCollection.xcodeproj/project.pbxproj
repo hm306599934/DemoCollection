@@ -45,11 +45,17 @@
 		BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */; };
 		BF2487131D275A2C0075A88D /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2487121D275A2C0075A88D /* CanvasView.swift */; };
 		BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2487141D2797B50075A88D /* CanvasModel.swift */; };
+		BF24871A1D28EAD20075A88D /* CanvasSet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2487191D28EAD20075A88D /* CanvasSet.xib */; };
+		BF24871C1D28EBD50075A88D /* CanvasSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24871B1D28EBD50075A88D /* CanvasSetView.swift */; };
 		BF45AD051D0BDE07006F5051 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD041D0BDE07006F5051 /* Person.m */; };
 		BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */; };
 		BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12D1D0D838D0041E989 /* CanvasVC.swift */; };
 		BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12F1D0D83B10041E989 /* PaletteVC.swift */; };
 		BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */; };
+		BF96AE601D2CE4A7008CA0AA /* GraphicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96AE5F1D2CE4A7008CA0AA /* GraphicVC.swift */; };
+		BF96AE621D2CE60E008CA0AA /* BezierPathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96AE611D2CE60E008CA0AA /* BezierPathVC.swift */; };
+		BF96AE641D2CEA97008CA0AA /* BezierPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96AE631D2CEA97008CA0AA /* BezierPathView.swift */; };
+		BF96AE661D2DF0C4008CA0AA /* GraphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96AE651D2DF0C4008CA0AA /* GraphicView.swift */; };
 		BFA849D61D13D63A000BF5CA /* DrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA849D51D13D63A000BF5CA /* DrawVC.m */; };
 		BFA849D91D13D7A8000BF5CA /* ProcessCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */; };
 		BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB73A7E1CD3556A0049035E /* CircleLayer.swift */; };
@@ -140,6 +146,8 @@
 		BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButton.swift; sourceTree = "<group>"; };
 		BF2487121D275A2C0075A88D /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		BF2487141D2797B50075A88D /* CanvasModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasModel.swift; sourceTree = "<group>"; };
+		BF2487191D28EAD20075A88D /* CanvasSet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasSet.xib; sourceTree = "<group>"; };
+		BF24871B1D28EBD50075A88D /* CanvasSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasSetView.swift; sourceTree = "<group>"; };
 		BF45AD031D0BDE07006F5051 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		BF45AD041D0BDE07006F5051 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BF45AD061D0BDE31006F5051 /* KeyAndValueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAndValueVC.h; sourceTree = "<group>"; };
@@ -147,6 +155,10 @@
 		BF47D12D1D0D838D0041E989 /* CanvasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasVC.swift; sourceTree = "<group>"; };
 		BF47D12F1D0D83B10041E989 /* PaletteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteVC.swift; sourceTree = "<group>"; };
 		BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailVC.swift; sourceTree = "<group>"; };
+		BF96AE5F1D2CE4A7008CA0AA /* GraphicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicVC.swift; sourceTree = "<group>"; };
+		BF96AE611D2CE60E008CA0AA /* BezierPathVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathVC.swift; sourceTree = "<group>"; };
+		BF96AE631D2CEA97008CA0AA /* BezierPathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathView.swift; sourceTree = "<group>"; };
+		BF96AE651D2DF0C4008CA0AA /* GraphicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicView.swift; sourceTree = "<group>"; };
 		BFA849D41D13D63A000BF5CA /* DrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawVC.h; sourceTree = "<group>"; };
 		BFA849D51D13D63A000BF5CA /* DrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawVC.m; sourceTree = "<group>"; };
 		BFA849D71D13D7A8000BF5CA /* ProcessCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessCircleView.h; sourceTree = "<group>"; };
@@ -163,8 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021EAFD51B7DDD3D00D73BD7 /* CFNetwork.framework in Frameworks */,
 				021EAFD31B7DDD3500D73BD7 /* SystemConfiguration.framework in Frameworks */,
+				021EAFD51B7DDD3D00D73BD7 /* CFNetwork.framework in Frameworks */,
 				021EAFD11B7DDD2900D73BD7 /* Security.framework in Frameworks */,
 				021EAF6B1B7D9A7C00D73BD7 /* QuartzCore.framework in Frameworks */,
 				C3558194FB1F07B28789C800 /* Pods_DemoCollection.framework in Frameworks */,
@@ -374,6 +386,7 @@
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
 				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
 				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
+				BF96AE5E1D2CE47D008CA0AA /* Core Graphic */,
 				BFA849D31D13D561000BF5CA /* Draw */,
 				BF47D1291D0D80A80041E989 /* Paint */,
 				BF45AD021D0BD703006F5051 /* KVO */,
@@ -448,8 +461,21 @@
 				BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */,
 				BF2487121D275A2C0075A88D /* CanvasView.swift */,
 				BF2487141D2797B50075A88D /* CanvasModel.swift */,
+				BF24871B1D28EBD50075A88D /* CanvasSetView.swift */,
+				BF2487191D28EAD20075A88D /* CanvasSet.xib */,
 			);
 			name = Paint;
+			sourceTree = "<group>";
+		};
+		BF96AE5E1D2CE47D008CA0AA /* Core Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				BF96AE5F1D2CE4A7008CA0AA /* GraphicVC.swift */,
+				BF96AE651D2DF0C4008CA0AA /* GraphicView.swift */,
+				BF96AE611D2CE60E008CA0AA /* BezierPathVC.swift */,
+				BF96AE631D2CEA97008CA0AA /* BezierPathView.swift */,
+			);
+			name = "Core Graphic";
 			sourceTree = "<group>";
 		};
 		BFA849D31D13D561000BF5CA /* Draw */ = {
@@ -554,7 +580,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "浙江大华";
 				TargetAttributes = {
 					02EF34531B7C79290099D4D9 = {
@@ -591,6 +617,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF24871A1D28EAD20075A88D /* CanvasSet.xib in Resources */,
 				02CF0C441B873D4500415CEC /* CustomSelect.xib in Resources */,
 				02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */,
 				02C212D61BF4AE5400079886 /* ImageUrl.plist in Resources */,
@@ -673,6 +700,7 @@
 				BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */,
 				029029A81B846FD20079AF30 /* OtherVC.m in Sources */,
 				BFEE05861D1A22FA00D574BC /* StrategyVC.swift in Sources */,
+				BF96AE641D2CEA97008CA0AA /* BezierPathView.swift in Sources */,
 				BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */,
 				02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */,
 				029029871B81F4FD0079AF30 /* GCDVC.m in Sources */,
@@ -683,6 +711,8 @@
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
 				029029971B82E4010079AF30 /* AnimationView.m in Sources */,
 				BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */,
+				BF96AE661D2DF0C4008CA0AA /* GraphicView.swift in Sources */,
+				BF24871C1D28EBD50075A88D /* CanvasSetView.swift in Sources */,
 				BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */,
 				029029901B8201580079AF30 /* BarrierAsyncVC.m in Sources */,
 				029029941B82E2B90079AF30 /* AnimationVC.m in Sources */,
@@ -691,8 +721,10 @@
 				029029BC1B85EE9D0079AF30 /* SelectPictureVC.m in Sources */,
 				BFA849D91D13D7A8000BF5CA /* ProcessCircleView.m in Sources */,
 				BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */,
+				BF96AE621D2CE60E008CA0AA /* BezierPathVC.swift in Sources */,
 				0290299D1B8346950079AF30 /* PageScrollView.m in Sources */,
 				021EAF6E1B7DBEE800D73BD7 /* TableViewVC.m in Sources */,
+				BF96AE601D2CE4A7008CA0AA /* GraphicVC.swift in Sources */,
 				BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */,
 				BF45AD051D0BDE07006F5051 /* Person.m in Sources */,
 				BFA849D61D13D63A000BF5CA /* DrawVC.m in Sources */,
@@ -763,6 +795,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -835,6 +868,7 @@
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tony.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0928c607-e31f-4a87-b44e-2eb8afc68463";
 				PROVISIONING_PROFILE_SPECIFIER = 9QZ8T7G56W/All_Device_Test_2015_09_09;
@@ -854,6 +888,7 @@
 				INFOPLIST_FILE = DemoCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tony.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0928c607-e31f-4a87-b44e-2eb8afc68463";
 				PROVISIONING_PROFILE_SPECIFIER = 9QZ8T7G56W/All_Device_Test_2015_09_09;

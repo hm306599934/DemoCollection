@@ -3,7 +3,7 @@
 //  DemoCollection
 //
 //  Created by Jimmy on 22/6/2016.
-//  Copyright © 2016 浙江大华. All rights reserved.
+//  Copyright © 2016 Tony. All rights reserved.
 //
 
 import UIKit
@@ -14,10 +14,10 @@ class StrategyVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let car = CLCar(name: "Car")
-        let boart = CLBoart(name: "Boart")
-        let plan = CLPlan(name: "Plan")
+        _ = CLBoart(name: "Boart")
+        _ = CLPlan(name: "Plan")
         
-        var context = CLContext(traffic: car)
+        let context = CLContext(traffic: car)
         let aa = context.name
         
         print(aa)
