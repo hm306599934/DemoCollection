@@ -85,6 +85,7 @@
 		BFA849D91D13D7A8000BF5CA /* ProcessCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */; };
 		BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB73A7E1CD3556A0049035E /* CircleLayer.swift */; };
 		BFD0CFA71D45B9D400615F18 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD0CFA61D45B9D400615F18 /* AVFoundation.framework */; };
+		BFD0CFAE1D45FF4D00615F18 /* UIView+HMDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD0CFAD1D45FF4D00615F18 /* UIView+HMDefine.m */; };
 		BFEE05721D13F86A00D574BC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE05711D13F86A00D574BC /* DrawView.swift */; };
 		BFEE05861D1A22FA00D574BC /* StrategyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE05851D1A22FA00D574BC /* StrategyVC.swift */; };
 		C3558194FB1F07B28789C800 /* Pods_DemoCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932184C97FE560B60172734D /* Pods_DemoCollection.framework */; };
@@ -225,6 +226,8 @@
 		BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessCircleView.m; sourceTree = "<group>"; };
 		BFB73A7E1CD3556A0049035E /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
 		BFD0CFA61D45B9D400615F18 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BFD0CFAC1D45FF4D00615F18 /* UIView+HMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMDefine.h"; sourceTree = "<group>"; };
+		BFD0CFAD1D45FF4D00615F18 /* UIView+HMDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMDefine.m"; sourceTree = "<group>"; };
 		BFEE05711D13F86A00D574BC /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		BFEE05851D1A22FA00D574BC /* StrategyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyVC.swift; sourceTree = "<group>"; };
 		EA79874F1B8A241A00E84103 /* GestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVC.h; sourceTree = "<group>"; };
@@ -478,6 +481,7 @@
 				029029B91B85EE370079AF30 /* SelectPicture */,
 				EA79874E1B8A23F400E84103 /* Gesture */,
 				029029A51B846FB80079AF30 /* Other */,
+				BFD0CFAB1D45FF1E00615F18 /* Category */,
 				021EAF6F1B7DC16C00D73BD7 /* View */,
 				021EAF661B7D83BF00D73BD7 /* Helper */,
 				026DDA921B9477E200FCB935 /* LoadMore */,
@@ -634,6 +638,15 @@
 				BFEE05711D13F86A00D574BC /* DrawView.swift */,
 			);
 			name = Draw;
+			sourceTree = "<group>";
+		};
+		BFD0CFAB1D45FF1E00615F18 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BFD0CFAC1D45FF4D00615F18 /* UIView+HMDefine.h */,
+				BFD0CFAD1D45FF4D00615F18 /* UIView+HMDefine.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		BFEE05821D1A1F1000D574BC /* DesignPattern */ = {
@@ -850,6 +863,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD0CFAE1D45FF4D00615F18 /* UIView+HMDefine.m in Sources */,
 				0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */,
 				02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */,
 				BF2487131D275A2C0075A88D /* CanvasView.swift in Sources */,

@@ -8,6 +8,7 @@
 
 #import "MasonryVC.h"
 #import "View+MASAdditions.h"
+#import "UIView+HMDefine.h"
 
 @implementation MasonryVC
 
@@ -44,39 +45,47 @@
     viewGreen.backgroundColor = [UIColor greenColor];
     
     [self.view addSubview:viewGreen];
-    //左上角
-    [viewRed mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.view.mas_top).with.offset(64);
-        make.left.equalTo(self.view.mas_left);
-        make.width.mas_equalTo(100);
-        make.height.mas_equalTo(100);
-    }];
-    //居中
-    [viewGray mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.mas_equalTo(self.view);
-        make.width.and.height.mas_equalTo(100);
-    }];
-    //灰块上方
-    [viewBlue mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(viewGray.mas_left);
-        make.bottom.mas_equalTo(viewGray.mas_top);
-        make.top.mas_equalTo(self.view);
-        make.right.mas_equalTo(self.view);
-    }];
-    //灰块左边
-    [viewYellow mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.view);
-        make.bottom.mas_equalTo(self.view);
-        make.top.mas_equalTo(viewRed.mas_bottom);
-        make.right.mas_equalTo(viewGray.mas_left);
-    }];
-    //灰块左上
-    [viewPurple mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.and.top.mas_equalTo(viewGray);
-        //缩放
-        make.width.mas_equalTo(viewGray).multipliedBy(0.3333333);
-        make.height.mas_equalTo(viewGray).dividedBy(3);
-    }];
+//    //左上角
+//    [viewRed mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.equalTo(self.view.mas_top).with.offset(64);
+//        make.left.equalTo(self.view.mas_left);
+//        make.width.mas_equalTo(100);
+//        make.height.mas_equalTo(100);
+//    }];
+//    //居中
+//    [viewGray mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.center.mas_equalTo(self.view);
+//        make.width.and.height.mas_equalTo(100);
+//    }];
+//    //灰块上方
+//    [viewBlue mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(viewGray.mas_left);
+//        make.bottom.mas_equalTo(viewGray.mas_top);
+//        make.top.mas_equalTo(self.view);
+//        make.right.mas_equalTo(self.view);
+//    }];
+//    //灰块左边
+//    [viewYellow mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(self.view);
+//        make.bottom.mas_equalTo(self.view);
+//        make.top.mas_equalTo(viewRed.mas_bottom);
+//        make.right.mas_equalTo(viewGray.mas_left);
+//    }];
+//    //灰块左上
+//    [viewPurple mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.and.top.mas_equalTo(viewGray);
+//        //缩放
+//        make.width.mas_equalTo(viewGray).multipliedBy(0.3333333);
+//        make.height.mas_equalTo(viewGray).dividedBy(3);
+//    }];
+    
+    viewGray.x = 20;
+    viewGray.y = 100;
+    viewGray.height = 50;
+    viewGray.width = 50;
+    
+    viewGray.right = 0;
+    viewGray.bottom = 300;
 }
 
 
