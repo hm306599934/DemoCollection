@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"设计模式", @"Core Graphic", @"AVFoundation", @"动画效果", @"KVO", @"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"扫描二维码", @"侧边栏",  @"手势",  @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"设计模式", @"Core Graphic", @"AVFoundation", @"动画效果", @"KVO", @"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"侧边栏",  @"手势",  @"其他", nil];
     [self.tableView hideExtreCell];
 
 }
@@ -28,7 +28,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
-    UIGestureRecognizer
+    
     // Dispose of any resources that can be recreated.
 }
 

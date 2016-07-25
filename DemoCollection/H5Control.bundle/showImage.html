@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1,maximum-scale=5,user-scalable=yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+
+<script type="text/javascript">
+
+function getUrlParameter(paraStr)
+{
+    var url = window.location.href;
+    if(url.indexOf("?")==-1||url.indexOf(paraStr+"=")==-1) // 如果链接没有参数，或者链接中不存在我们要获取的参数，直接返回空 
+    {
+        return "";
+    }
+    var queryString=url.substring(url.indexOf("?")+1);// 获取链接中参数部分
+
+    var parameters=queryString.split("&"); // 分离参数对 ?key=value&key2=value2   
+    var pos,paraName,paraValue;
+    for(var i=0;i<parameters.length;i++)
+    {    
+         pos = parameters[i].indexOf("=");   // 获取等号位置 
+         if(pos==-1)
+         {
+            continue;//跳出当前循环
+         }   
+         paraName=parameters[i].substring(0,pos); // 获取name
+         paraValue=parameters[i].substring(pos+1); // 获取value
+         if(paraName==paraStr)                   // 如果查询的name等于当前name，就返回当前值，同时，将链接中的+号还原成空格
+         {
+             return decodeURI(paraValue.replace(/\+/g, " "));
+         }
+     }
+     return "";
+}
+
+var fileArray;
+var file;
+var index;		
+		
+function mousePosition(ev)
+{ 
+	if(ev.pageX || ev.pageY)
+	{ 
+		return {x:ev.pageX, y:ev.pageY}; 
+	} 
+	return 
+	{ 
+		x:ev.clientX + document.body.scrollLeft - document.body.clientLeft;
+		y:ev.clientY + document.body.scrollTop - document.body.clientTop; 
+	}; 
+} 		
+		
+function mouseMove(ev)
+{
+    var img = document.getElementById("img");
+    ev = ev || window.event; 
+    var mousePos = mousePosition(ev);
+    var width =document.body.clientWidth;
+    
+    if(mousePos.x>width/2)
+    {	
+        next();
+    }
+    else
+    {
+        last();
+    }
+} 
+
+function readly()
+{
+    fileArray = getUrlParameter('file');
+    file = fileArray.split(";");
+    for(var i=0; i<file.length; i++)
+    {
+        var temp = file[i];
+        if(temp.length==0)
+        {
+            file.splice(i);
+        }
+    }
+
+    document.onmousedown = mouseMove;  //取消这句注释会开启点击webView左右两半进行页面切换的效果
+
+    var img = document.getElementById("img");
+    index = 0;
+    img.setAttribute("src",file[index]);		//设置第一页的Img
+}
+
+function next()
+{
+    var img = document.getElementById("img");
+    if(index==(file.length-1))
+    {
+        return;
+    }
+    index++;
+    
+   
+    img.setAttribute("src",file[index]);
+
+}
+
+function last()
+{
+    var img = document.getElementById("img");
+    if(index==0)
+    {
+        return;
+    }
+    index--;
+    img.setAttribute("src",file[index]);
+
+}
+
+
+
+		
+</script>
+
+<style>
+     body{ margin:0; padding:0;}
+	div{ width:100%; height:100%;  margin:0 auto; }/*这里的width height 大于图片的宽高*/
+	table{ height:100%; width:100%; text-align:center;}
+    img{ width:100%;}
+ </style>
+    <body onLoad="readly()">
+        <div>
+            <table>
+            <tr><td>    
+            <img id="img" />
+            </td><tr>
+            </table>
+        </div>
+    </body>
+</html>

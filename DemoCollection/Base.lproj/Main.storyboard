@@ -318,8 +318,7 @@
                         <segue destination="XU2-h4-V2I" kind="show" identifier="TableView" id="QkG-Dh-nAN"/>
                         <segue destination="dpk-F7-eV6" kind="show" identifier="GCD" id="YTK-j5-yDD"/>
                         <segue destination="t0x-rn-4oC" kind="show" identifier="Animation" id="gGZ-g9-SIU"/>
-                        <segue destination="PWd-iq-QHa" kind="show" identifier="ScrollView" id="H6m-ex-IGS"/>
-                        <segue destination="RyF-Ci-jl8" kind="show" identifier="Other" id="O8W-Ig-1PB"/>
+                        <segue destination="hHz-8T-e8H" kind="show" identifier="ScrollView" id="H6m-ex-IGS"/>
                         <segue destination="1i1-XP-wQv" kind="show" identifier="SelectPicture" id="eId-GP-1zf"/>
                         <segue destination="VTu-RQ-Kbi" kind="show" identifier="Gesture" id="fkY-ov-YU9"/>
                         <segue destination="JkO-yn-zhi" kind="show" identifier="LoadMore" id="geb-55-BRU"/>
@@ -328,6 +327,7 @@
                         <segue destination="eFY-Dv-Nj4" kind="show" identifier="DesignPattern" id="PdL-55-P7i"/>
                         <segue destination="OhX-FK-Jrd" kind="show" identifier="Draw" id="X4d-Ko-Dug"/>
                         <segue destination="VFo-cM-hVw" kind="show" identifier="CoreGraphic" id="mE7-Hk-FRY"/>
+                        <segue destination="BtO-9E-qFR" kind="show" identifier="Other" id="v3q-Cf-KFD"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-SW-lCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -365,44 +365,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10t-yv-Fo6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1200" y="1054"/>
-        </scene>
-        <!--ScrollView-->
-        <scene sceneID="ra8-aa-rqx">
-            <objects>
-                <viewController id="PWd-iq-QHa" customClass="ScrollViewVC" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Hgh-nY-oTt"/>
-                        <viewControllerLayoutGuide type="bottom" id="YtE-2C-kM6"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="SDb-uC-8h7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="ScrollView" id="9BS-Qg-AOb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tvh-uK-fkD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1194" y="1727"/>
-        </scene>
-        <!--其他-->
-        <scene sceneID="xj3-dh-h4z">
-            <objects>
-                <viewController id="RyF-Ci-jl8" customClass="OtherVC" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gak-Rg-WJX"/>
-                        <viewControllerLayoutGuide type="bottom" id="s98-v3-Hef"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wZb-CQ-DgM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="其他" id="nuP-b9-jyA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yBv-LS-EJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1192" y="2391"/>
         </scene>
         <!--GCD-->
         <scene sceneID="x1v-ER-17a">
@@ -751,7 +713,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AFc-i4-ZvD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1194" y="3025"/>
+            <point key="canvasLocation" x="296" y="4122"/>
         </scene>
         <!--手势-->
         <scene sceneID="Aaf-QC-SXd">
@@ -787,7 +749,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S34-Yz-ZCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1192" y="3701"/>
+            <point key="canvasLocation" x="-112" y="3405"/>
         </scene>
         <!--设计模式-->
         <scene sceneID="N1U-n5-DCL">
@@ -957,7 +919,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B59-AO-TDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1132" y="5320"/>
+            <point key="canvasLocation" x="-940" y="5128"/>
         </scene>
         <!--工厂方法模式-->
         <scene sceneID="ujI-d4-Ybn">
@@ -976,7 +938,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAP-AR-d97" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1597" y="4398"/>
+            <point key="canvasLocation" x="-275" y="4454"/>
         </scene>
         <!--画图-->
         <scene sceneID="vLe-QK-gFr">
@@ -1111,7 +1073,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOh-15-ACY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1597" y="5758"/>
+            <point key="canvasLocation" x="-280" y="5862"/>
         </scene>
         <!--策略模式-->
         <scene sceneID="53g-ja-2GO">
@@ -1130,7 +1092,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKg-I9-dWL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1597" y="5083"/>
+            <point key="canvasLocation" x="-275" y="5163"/>
         </scene>
         <!--Download ImagesVC-->
         <scene sceneID="dHf-Ur-R7L">
@@ -1441,6 +1403,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tkO-TG-o76" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1893" y="-380"/>
+        </scene>
+        <!--UIViewController-PWd-iq-QHa-->
+        <scene sceneID="4hc-U9-E61">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Other" referencedIdentifier="UIViewController-PWd-iq-QHa" id="hHz-8T-e8H" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wuJ-XW-PFi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194" y="1727"/>
+        </scene>
+        <!--UITableViewController-McG-HR-l5g-->
+        <scene sceneID="KgG-8b-olQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Other" referencedIdentifier="UITableViewController-McG-HR-l5g" id="BtO-9E-qFR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8NO-bl-2FA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1101" y="3701"/>
         </scene>
     </scenes>
     <resources>

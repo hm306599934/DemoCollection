@@ -7,6 +7,8 @@ pod 'SnapKit', '~>0.20.0'
 pod 'RxSwift','~>2.0'
 pod 'RxCocoa', '~> 2.5.0'
 pod 'RxBlocking', '~> 2.5.0'
-pod 'AFNetworking', '~>2.0'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'Masonry'
 
 end
