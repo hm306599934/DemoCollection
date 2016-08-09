@@ -1,5 +1,5 @@
 //
-//  HMButtonVC.h
+//  HMInputView.h
 //  DemoCollection
 //
 //  Created by Jimmy on 9/8/2016.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class HMButton;
 
-@interface HMButtonVC : UIViewController
+@interface HMInputView : UIView
 
-@property (weak, nonatomic) IBOutlet HMButton *mButton;
+@property(nonatomic, strong) UITextField *mTextField;
+
 
 @end

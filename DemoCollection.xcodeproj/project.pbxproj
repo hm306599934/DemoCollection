@@ -62,8 +62,9 @@
 		BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12D1D0D838D0041E989 /* CanvasVC.swift */; };
 		BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12F1D0D83B10041E989 /* PaletteVC.swift */; };
 		BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */; };
-		BF63B25E1D59D15500477388 /* HMButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B25D1D59D15500477388 /* HMButtonVC.m */; };
 		BF63B2621D59D17D00477388 /* HMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B2611D59D17D00477388 /* HMButton.m */; };
+		BF63B26D1D59FD5D00477388 /* HMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B26C1D59FD5D00477388 /* HMInputView.m */; };
+		BF63B2731D59FDEF00477388 /* HMViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B2721D59FDEF00477388 /* HMViewVC.m */; };
 		BF8178F61D4301470086E962 /* H5Control.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF8178F51D4301470086E962 /* H5Control.bundle */; };
 		BF8178F91D43015E0086E962 /* AlipayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8178F81D43015E0086E962 /* AlipayVC.m */; };
 		BF8178FC1D4301740086E962 /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8178FB1D4301740086E962 /* OtherVC.m */; };
@@ -207,10 +208,12 @@
 		BF47D12D1D0D838D0041E989 /* CanvasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasVC.swift; sourceTree = "<group>"; };
 		BF47D12F1D0D83B10041E989 /* PaletteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteVC.swift; sourceTree = "<group>"; };
 		BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailVC.swift; sourceTree = "<group>"; };
-		BF63B25C1D59D15500477388 /* HMButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMButtonVC.h; sourceTree = "<group>"; };
-		BF63B25D1D59D15500477388 /* HMButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMButtonVC.m; sourceTree = "<group>"; };
 		BF63B2601D59D17D00477388 /* HMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMButton.h; path = DemoCollection/HMButton.h; sourceTree = "<group>"; };
 		BF63B2611D59D17D00477388 /* HMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMButton.m; path = DemoCollection/HMButton.m; sourceTree = "<group>"; };
+		BF63B26B1D59FD5D00477388 /* HMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMInputView.h; path = DemoCollection/HMInputView.h; sourceTree = "<group>"; };
+		BF63B26C1D59FD5D00477388 /* HMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMInputView.m; path = DemoCollection/HMInputView.m; sourceTree = "<group>"; };
+		BF63B2711D59FDEF00477388 /* HMViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMViewVC.h; path = DemoCollection/HMViewVC.h; sourceTree = "<group>"; };
+		BF63B2721D59FDEF00477388 /* HMViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMViewVC.m; path = DemoCollection/HMViewVC.m; sourceTree = "<group>"; };
 		BF8178F51D4301470086E962 /* H5Control.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = H5Control.bundle; sourceTree = "<group>"; };
 		BF8178F71D43015E0086E962 /* AlipayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlipayVC.h; path = DemoCollection/AlipayVC.h; sourceTree = "<group>"; };
 		BF8178F81D43015E0086E962 /* AlipayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlipayVC.m; path = DemoCollection/AlipayVC.m; sourceTree = "<group>"; };
@@ -634,6 +637,9 @@
 		BF63B25B1D59D11C00477388 /* 自定义控件 */ = {
 			isa = PBXGroup;
 			children = (
+				BF63B2711D59FDEF00477388 /* HMViewVC.h */,
+				BF63B2721D59FDEF00477388 /* HMViewVC.m */,
+				BF63B26A1D59FD3000477388 /* 输入框 */,
 				BF63B25F1D59D16100477388 /* 倒计时按钮 */,
 			);
 			name = "自定义控件";
@@ -642,12 +648,19 @@
 		BF63B25F1D59D16100477388 /* 倒计时按钮 */ = {
 			isa = PBXGroup;
 			children = (
-				BF63B25C1D59D15500477388 /* HMButtonVC.h */,
-				BF63B25D1D59D15500477388 /* HMButtonVC.m */,
 				BF63B2601D59D17D00477388 /* HMButton.h */,
 				BF63B2611D59D17D00477388 /* HMButton.m */,
 			);
 			name = "倒计时按钮";
+			sourceTree = "<group>";
+		};
+		BF63B26A1D59FD3000477388 /* 输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				BF63B26B1D59FD5D00477388 /* HMInputView.h */,
+				BF63B26C1D59FD5D00477388 /* HMInputView.m */,
+			);
+			name = "输入框";
 			sourceTree = "<group>";
 		};
 		BF8179061D430F1F0086E962 /* 二维码 */ = {
@@ -1006,7 +1019,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF63B25E1D59D15500477388 /* HMButtonVC.m in Sources */,
 				BFD0CFAE1D45FF4D00615F18 /* UIView+HMDefine.m in Sources */,
 				0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */,
 				02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */,
@@ -1021,6 +1033,7 @@
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
 				BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */,
 				BFA5F54A1D51972600108745 /* UIViewController+HMDefine.m in Sources */,
+				BF63B2731D59FDEF00477388 /* HMViewVC.m in Sources */,
 				BFEE05861D1A22FA00D574BC /* StrategyVC.swift in Sources */,
 				BF8179051D43019B0086E962 /* HtmlRecognizeVC.m in Sources */,
 				BF96AE641D2CEA97008CA0AA /* BezierPathView.swift in Sources */,
@@ -1044,6 +1057,7 @@
 				BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */,
 				BF8178FC1D4301740086E962 /* OtherVC.m in Sources */,
 				BFA5F5441D518E4500108745 /* NSObject+HMDefine.m in Sources */,
+				BF63B26D1D59FD5D00477388 /* HMInputView.m in Sources */,
 				BF96AE661D2DF0C4008CA0AA /* GraphicView.swift in Sources */,
 				BF24871C1D28EBD50075A88D /* CanvasSetView.swift in Sources */,
 				BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */,
