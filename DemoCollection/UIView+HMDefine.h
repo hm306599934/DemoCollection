@@ -28,3 +28,18 @@
 @property (nonatomic) CGFloat centerY;
 
 @end
+
+
+@interface UIView(HMView)
+
+- (void)removeSubViews;
+
+- (void)setBorderWidth:(CGFloat)width color:(UIColor*)color;
+
+- (void)setBorderWidth:(CGFloat)width color:(UIColor*)color radius:(CGFloat)radius;
+
+- (void)setRound;
+
+- (void)setRadius:(CGFloat)radius;
+
+@end

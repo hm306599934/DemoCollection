@@ -13,7 +13,13 @@ typedef enum {
     AnimationRotate,
     AnimationBigger,
     AnimationFadeIn,
-    AnimationFadeOut
+    AnimationFadeOut,
+    AnimationFrame,
+    AnimationBounds,
+    AnimationCenter,
+    AnimationTransform,
+    AnimationAlpha,
+    AnimationBackgroundColor,
 } AnimationType;
 
 @interface AnimationView : UIView

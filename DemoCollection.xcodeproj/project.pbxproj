@@ -56,11 +56,14 @@
 		BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2487141D2797B50075A88D /* CanvasModel.swift */; };
 		BF24871A1D28EAD20075A88D /* CanvasSet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2487191D28EAD20075A88D /* CanvasSet.xib */; };
 		BF24871C1D28EBD50075A88D /* CanvasSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24871B1D28EBD50075A88D /* CanvasSetView.swift */; };
+		BF26BB1F1D49F9760002B327 /* System.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26BB1D1D49F9760002B327 /* System.storyboard */; };
 		BF45AD051D0BDE07006F5051 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD041D0BDE07006F5051 /* Person.m */; };
 		BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */; };
 		BF47D12E1D0D838D0041E989 /* CanvasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12D1D0D838D0041E989 /* CanvasVC.swift */; };
 		BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D12F1D0D83B10041E989 /* PaletteVC.swift */; };
 		BF47D1321D0D83C50041E989 /* ThumbnailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */; };
+		BF63B25E1D59D15500477388 /* HMButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B25D1D59D15500477388 /* HMButtonVC.m */; };
+		BF63B2621D59D17D00477388 /* HMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B2611D59D17D00477388 /* HMButton.m */; };
 		BF8178F61D4301470086E962 /* H5Control.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF8178F51D4301470086E962 /* H5Control.bundle */; };
 		BF8178F91D43015E0086E962 /* AlipayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8178F81D43015E0086E962 /* AlipayVC.m */; };
 		BF8178FC1D4301740086E962 /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8178FB1D4301740086E962 /* OtherVC.m */; };
@@ -81,9 +84,22 @@
 		BF97CAB91D4488C800C5CFD2 /* ScanBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97CAB81D4488C800C5CFD2 /* ScanBackgroundView.m */; };
 		BF97CABC1D448A8300C5CFD2 /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97CABB1D448A8300C5CFD2 /* ScanView.m */; };
 		BF97CACE1D45B22E00C5CFD2 /* PayRNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97CACD1D45B22E00C5CFD2 /* PayRNVC.m */; };
+		BFA5F5391D51881800108745 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA5F5381D51881800108745 /* TestVC.m */; };
+		BFA5F5441D518E4500108745 /* NSObject+HMDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA5F5431D518E4500108745 /* NSObject+HMDefine.m */; };
+		BFA5F5471D5194AA00108745 /* UINavigationController+HMDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA5F5461D5194AA00108745 /* UINavigationController+HMDefine.m */; };
+		BFA5F54A1D51972600108745 /* UIViewController+HMDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA5F5491D51972600108745 /* UIViewController+HMDefine.m */; };
 		BFA849D61D13D63A000BF5CA /* DrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA849D51D13D63A000BF5CA /* DrawVC.m */; };
 		BFA849D91D13D7A8000BF5CA /* ProcessCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */; };
 		BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB73A7E1CD3556A0049035E /* CircleLayer.swift */; };
+		BFC707571D4A1BAC001227DE /* RuntimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC707561D4A1BAC001227DE /* RuntimeVC.m */; };
+		BFC7075B1D4ADD14001227DE /* DesignPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC707591D4ADD14001227DE /* DesignPattern.storyboard */; };
+		BFC7075E1D4ADD78001227DE /* EnumeratorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7075D1D4ADD78001227DE /* EnumeratorVC.m */; };
+		BFC707651D4CA8A0001227DE /* ClassClusterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC707641D4CA8A0001227DE /* ClassClusterVC.m */; };
+		BFC707691D4F2A97001227DE /* ChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC707681D4F2A97001227DE /* ChildVC.m */; };
+		BFC7076C1D4F2BCA001227DE /* TheChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7076B1D4F2BCA001227DE /* TheChildVC.m */; };
+		BFC7076F1D4F4C4E001227DE /* CoreAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7076E1D4F4C4E001227DE /* CoreAnimationVC.m */; };
+		BFC707721D4F4C72001227DE /* DynamicAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC707711D4F4C72001227DE /* DynamicAnimationVC.m */; };
+		BFC707751D4F4C87001227DE /* ViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC707741D4F4C87001227DE /* ViewAnimationVC.m */; };
 		BFD0CFA71D45B9D400615F18 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD0CFA61D45B9D400615F18 /* AVFoundation.framework */; };
 		BFD0CFAE1D45FF4D00615F18 /* UIView+HMDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD0CFAD1D45FF4D00615F18 /* UIView+HMDefine.m */; };
 		BFEE05721D13F86A00D574BC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE05711D13F86A00D574BC /* DrawView.swift */; };
@@ -183,6 +199,7 @@
 		BF2487141D2797B50075A88D /* CanvasModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasModel.swift; sourceTree = "<group>"; };
 		BF2487191D28EAD20075A88D /* CanvasSet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasSet.xib; sourceTree = "<group>"; };
 		BF24871B1D28EBD50075A88D /* CanvasSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasSetView.swift; sourceTree = "<group>"; };
+		BF26BB1E1D49F9760002B327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/System.storyboard; sourceTree = "<group>"; };
 		BF45AD031D0BDE07006F5051 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		BF45AD041D0BDE07006F5051 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BF45AD061D0BDE31006F5051 /* KeyAndValueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAndValueVC.h; sourceTree = "<group>"; };
@@ -190,6 +207,10 @@
 		BF47D12D1D0D838D0041E989 /* CanvasVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasVC.swift; sourceTree = "<group>"; };
 		BF47D12F1D0D83B10041E989 /* PaletteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteVC.swift; sourceTree = "<group>"; };
 		BF47D1311D0D83C50041E989 /* ThumbnailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailVC.swift; sourceTree = "<group>"; };
+		BF63B25C1D59D15500477388 /* HMButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMButtonVC.h; sourceTree = "<group>"; };
+		BF63B25D1D59D15500477388 /* HMButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMButtonVC.m; sourceTree = "<group>"; };
+		BF63B2601D59D17D00477388 /* HMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMButton.h; path = DemoCollection/HMButton.h; sourceTree = "<group>"; };
+		BF63B2611D59D17D00477388 /* HMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMButton.m; path = DemoCollection/HMButton.m; sourceTree = "<group>"; };
 		BF8178F51D4301470086E962 /* H5Control.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = H5Control.bundle; sourceTree = "<group>"; };
 		BF8178F71D43015E0086E962 /* AlipayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlipayVC.h; path = DemoCollection/AlipayVC.h; sourceTree = "<group>"; };
 		BF8178F81D43015E0086E962 /* AlipayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlipayVC.m; path = DemoCollection/AlipayVC.m; sourceTree = "<group>"; };
@@ -220,11 +241,36 @@
 		BF97CABB1D448A8300C5CFD2 /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
 		BF97CACC1D45B22E00C5CFD2 /* PayRNVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayRNVC.h; sourceTree = "<group>"; };
 		BF97CACD1D45B22E00C5CFD2 /* PayRNVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayRNVC.m; sourceTree = "<group>"; };
+		BFA5F5371D51881800108745 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		BFA5F5381D51881800108745 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		BFA5F5421D518E4500108745 /* NSObject+HMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HMDefine.h"; sourceTree = "<group>"; };
+		BFA5F5431D518E4500108745 /* NSObject+HMDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HMDefine.m"; sourceTree = "<group>"; };
+		BFA5F5451D5194AA00108745 /* UINavigationController+HMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HMDefine.h"; sourceTree = "<group>"; };
+		BFA5F5461D5194AA00108745 /* UINavigationController+HMDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HMDefine.m"; sourceTree = "<group>"; };
+		BFA5F5481D51972600108745 /* UIViewController+HMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HMDefine.h"; sourceTree = "<group>"; };
+		BFA5F5491D51972600108745 /* UIViewController+HMDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HMDefine.m"; sourceTree = "<group>"; };
 		BFA849D41D13D63A000BF5CA /* DrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawVC.h; sourceTree = "<group>"; };
 		BFA849D51D13D63A000BF5CA /* DrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawVC.m; sourceTree = "<group>"; };
 		BFA849D71D13D7A8000BF5CA /* ProcessCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessCircleView.h; sourceTree = "<group>"; };
 		BFA849D81D13D7A8000BF5CA /* ProcessCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessCircleView.m; sourceTree = "<group>"; };
 		BFB73A7E1CD3556A0049035E /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		BFC707551D4A1BAC001227DE /* RuntimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeVC.h; sourceTree = "<group>"; };
+		BFC707561D4A1BAC001227DE /* RuntimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeVC.m; sourceTree = "<group>"; };
+		BFC7075A1D4ADD14001227DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DesignPattern.storyboard; sourceTree = "<group>"; };
+		BFC7075C1D4ADD78001227DE /* EnumeratorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumeratorVC.h; sourceTree = "<group>"; };
+		BFC7075D1D4ADD78001227DE /* EnumeratorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumeratorVC.m; sourceTree = "<group>"; };
+		BFC707631D4CA8A0001227DE /* ClassClusterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassClusterVC.h; sourceTree = "<group>"; };
+		BFC707641D4CA8A0001227DE /* ClassClusterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassClusterVC.m; sourceTree = "<group>"; };
+		BFC707671D4F2A97001227DE /* ChildVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildVC.h; sourceTree = "<group>"; };
+		BFC707681D4F2A97001227DE /* ChildVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildVC.m; sourceTree = "<group>"; };
+		BFC7076A1D4F2BCA001227DE /* TheChildVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheChildVC.h; sourceTree = "<group>"; };
+		BFC7076B1D4F2BCA001227DE /* TheChildVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheChildVC.m; sourceTree = "<group>"; };
+		BFC7076D1D4F4C4E001227DE /* CoreAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationVC.h; sourceTree = "<group>"; };
+		BFC7076E1D4F4C4E001227DE /* CoreAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationVC.m; sourceTree = "<group>"; };
+		BFC707701D4F4C72001227DE /* DynamicAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicAnimationVC.h; sourceTree = "<group>"; };
+		BFC707711D4F4C72001227DE /* DynamicAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicAnimationVC.m; sourceTree = "<group>"; };
+		BFC707731D4F4C87001227DE /* ViewAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnimationVC.h; sourceTree = "<group>"; };
+		BFC707741D4F4C87001227DE /* ViewAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAnimationVC.m; sourceTree = "<group>"; };
 		BFD0CFA61D45B9D400615F18 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BFD0CFAC1D45FF4D00615F18 /* UIView+HMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMDefine.h"; sourceTree = "<group>"; };
 		BFD0CFAD1D45FF4D00615F18 /* UIView+HMDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMDefine.m"; sourceTree = "<group>"; };
@@ -382,6 +428,12 @@
 				029029951B82E4010079AF30 /* AnimationView.h */,
 				029029961B82E4010079AF30 /* AnimationView.m */,
 				BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */,
+				BFC7076D1D4F4C4E001227DE /* CoreAnimationVC.h */,
+				BFC7076E1D4F4C4E001227DE /* CoreAnimationVC.m */,
+				BFC707701D4F4C72001227DE /* DynamicAnimationVC.h */,
+				BFC707711D4F4C72001227DE /* DynamicAnimationVC.m */,
+				BFC707731D4F4C87001227DE /* ViewAnimationVC.h */,
+				BFC707741D4F4C87001227DE /* ViewAnimationVC.m */,
 			);
 			name = Animation;
 			sourceTree = "<group>";
@@ -389,6 +441,9 @@
 		029029A51B846FB80079AF30 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				BF63B25B1D59D11C00477388 /* 自定义控件 */,
+				BFA5F5361D51880500108745 /* 测试 */,
+				BFC707661D4F286C001227DE /* ChildVC */,
 				BF81790A1D4325AB0086E962 /* Masonry */,
 				BF8179061D430F1F0086E962 /* 二维码 */,
 				BF96F2501D41FA94000FF3D0 /* JS Patch */,
@@ -467,6 +522,7 @@
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
 				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
 				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
+				BFC7074D1D4A16CA001227DE /* System */,
 				BF96AE5E1D2CE47D008CA0AA /* Core Graphic */,
 				BFA849D31D13D561000BF5CA /* Draw */,
 				BF47D1291D0D80A80041E989 /* Paint */,
@@ -498,6 +554,8 @@
 				02CF0C421B873D1200415CEC /* Interface */,
 				BF0A99E31CD203A000F68EE5 /* DemoCollection-Bridging-Header.h */,
 				02EF34611B7C79290099D4D9 /* Main.storyboard */,
+				BFC707591D4ADD14001227DE /* DesignPattern.storyboard */,
+				BF26BB1D1D49F9760002B327 /* System.storyboard */,
 				BF8179071D4318310086E962 /* Other.storyboard */,
 				02EF34641B7C79290099D4D9 /* Images.xcassets */,
 				02EF34581B7C79290099D4D9 /* Info.plist */,
@@ -538,6 +596,16 @@
 			name = "支付宝";
 			sourceTree = "<group>";
 		};
+		BF26BB1C1D49F84C0002B327 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				BFC707551D4A1BAC001227DE /* RuntimeVC.h */,
+				BFC707561D4A1BAC001227DE /* RuntimeVC.m */,
+			);
+			name = RunTime;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		BF45AD021D0BD703006F5051 /* KVO */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,6 +629,25 @@
 				BF2487191D28EAD20075A88D /* CanvasSet.xib */,
 			);
 			name = Paint;
+			sourceTree = "<group>";
+		};
+		BF63B25B1D59D11C00477388 /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				BF63B25F1D59D16100477388 /* 倒计时按钮 */,
+			);
+			name = "自定义控件";
+			sourceTree = "<group>";
+		};
+		BF63B25F1D59D16100477388 /* 倒计时按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				BF63B25C1D59D15500477388 /* HMButtonVC.h */,
+				BF63B25D1D59D15500477388 /* HMButtonVC.m */,
+				BF63B2601D59D17D00477388 /* HMButton.h */,
+				BF63B2611D59D17D00477388 /* HMButton.m */,
+			);
+			name = "倒计时按钮";
 			sourceTree = "<group>";
 		};
 		BF8179061D430F1F0086E962 /* 二维码 */ = {
@@ -628,6 +715,15 @@
 			path = ../../../WorkSpace/LeChange/LoseAnson/Resource/Image;
 			sourceTree = "<group>";
 		};
+		BFA5F5361D51880500108745 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				BFA5F5371D51881800108745 /* TestVC.h */,
+				BFA5F5381D51881800108745 /* TestVC.m */,
+			);
+			name = "测试";
+			sourceTree = "<group>";
+		};
 		BFA849D31D13D561000BF5CA /* Draw */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,11 +736,54 @@
 			name = Draw;
 			sourceTree = "<group>";
 		};
+		BFC7074D1D4A16CA001227DE /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BF26BB1C1D49F84C0002B327 /* RunTime */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		BFC707581D4ADCBB001227DE /* Enumerator */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7075C1D4ADD78001227DE /* EnumeratorVC.h */,
+				BFC7075D1D4ADD78001227DE /* EnumeratorVC.m */,
+			);
+			name = Enumerator;
+			sourceTree = "<group>";
+		};
+		BFC707621D4CA837001227DE /* ClassCluster */ = {
+			isa = PBXGroup;
+			children = (
+				BFC707631D4CA8A0001227DE /* ClassClusterVC.h */,
+				BFC707641D4CA8A0001227DE /* ClassClusterVC.m */,
+			);
+			name = ClassCluster;
+			sourceTree = "<group>";
+		};
+		BFC707661D4F286C001227DE /* ChildVC */ = {
+			isa = PBXGroup;
+			children = (
+				BFC707671D4F2A97001227DE /* ChildVC.h */,
+				BFC707681D4F2A97001227DE /* ChildVC.m */,
+				BFC7076A1D4F2BCA001227DE /* TheChildVC.h */,
+				BFC7076B1D4F2BCA001227DE /* TheChildVC.m */,
+			);
+			name = ChildVC;
+			sourceTree = "<group>";
+		};
 		BFD0CFAB1D45FF1E00615F18 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				BFD0CFAC1D45FF4D00615F18 /* UIView+HMDefine.h */,
 				BFD0CFAD1D45FF4D00615F18 /* UIView+HMDefine.m */,
+				BFA5F5421D518E4500108745 /* NSObject+HMDefine.h */,
+				BFA5F5431D518E4500108745 /* NSObject+HMDefine.m */,
+				BFA5F5451D5194AA00108745 /* UINavigationController+HMDefine.h */,
+				BFA5F5461D5194AA00108745 /* UINavigationController+HMDefine.m */,
+				BFA5F5481D51972600108745 /* UIViewController+HMDefine.h */,
+				BFA5F5491D51972600108745 /* UIViewController+HMDefine.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -652,6 +791,8 @@
 		BFEE05821D1A1F1000D574BC /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				BFC707621D4CA837001227DE /* ClassCluster */,
+				BFC707581D4ADCBB001227DE /* Enumerator */,
 				BFEE05841D1A20E900D574BC /* Strategy */,
 				BFEE05831D1A20A800D574BC /* FactoryMethod */,
 			);
@@ -790,10 +931,12 @@
 				02CF0C441B873D4500415CEC /* CustomSelect.xib in Resources */,
 				BF8178F61D4301470086E962 /* H5Control.bundle in Resources */,
 				BF197F571D410D3800297ECF /* AlipaySDK.bundle in Resources */,
+				BFC7075B1D4ADD14001227DE /* DesignPattern.storyboard in Resources */,
 				02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */,
 				BF96F2641D422528000FF3D0 /* jay1.jpg in Resources */,
 				02C212D61BF4AE5400079886 /* ImageUrl.plist in Resources */,
 				BF96F2671D422528000FF3D0 /* jay4.jpg in Resources */,
+				BF26BB1F1D49F9760002B327 /* System.storyboard in Resources */,
 				02EF34681B7C79290099D4D9 /* LaunchScreen.xib in Resources */,
 				BF8179091D4318310086E962 /* Other.storyboard in Resources */,
 				BF96F2661D422528000FF3D0 /* jay3.jpg in Resources */,
@@ -863,11 +1006,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF63B25E1D59D15500477388 /* HMButtonVC.m in Sources */,
 				BFD0CFAE1D45FF4D00615F18 /* UIView+HMDefine.m in Sources */,
 				0217E9B11B7C979300ADCAF8 /* BlockVC.m in Sources */,
 				02CF0C481B87430100415CEC /* CustomPickerView.m in Sources */,
 				BF2487131D275A2C0075A88D /* CanvasView.swift in Sources */,
 				02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */,
+				BFC7076C1D4F2BCA001227DE /* TheChildVC.m in Sources */,
 				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
 				0276CDCE1BF49F56007A7D87 /* DownloadImagesVC.m in Sources */,
 				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
@@ -875,6 +1020,7 @@
 				026DDA951B94782C00FCB935 /* LoadMoewVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
 				BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */,
+				BFA5F54A1D51972600108745 /* UIViewController+HMDefine.m in Sources */,
 				BFEE05861D1A22FA00D574BC /* StrategyVC.swift in Sources */,
 				BF8179051D43019B0086E962 /* HtmlRecognizeVC.m in Sources */,
 				BF96AE641D2CEA97008CA0AA /* BezierPathView.swift in Sources */,
@@ -883,14 +1029,21 @@
 				029029871B81F4FD0079AF30 /* GCDVC.m in Sources */,
 				BF8179041D43019B0086E962 /* HtmlLocalVC.m in Sources */,
 				BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */,
+				BFA5F5471D5194AA00108745 /* UINavigationController+HMDefine.m in Sources */,
+				BF63B2621D59D17D00477388 /* HMButton.m in Sources */,
 				BF81790D1D4326A00086E962 /* MasonryVC.m in Sources */,
 				0290298D1B81FBAA0079AF30 /* GroupAsyncVC.m in Sources */,
+				BFC707651D4CA8A0001227DE /* ClassClusterVC.m in Sources */,
 				BFB73A7F1CD3556A0049035E /* CircleLayer.swift in Sources */,
+				BFC7075E1D4ADD78001227DE /* EnumeratorVC.m in Sources */,
 				BFEE05721D13F86A00D574BC /* DrawView.swift in Sources */,
 				02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */,
+				BFA5F5391D51881800108745 /* TestVC.m in Sources */,
 				029029971B82E4010079AF30 /* AnimationView.m in Sources */,
+				BFC707721D4F4C72001227DE /* DynamicAnimationVC.m in Sources */,
 				BF47D1301D0D83B10041E989 /* PaletteVC.swift in Sources */,
 				BF8178FC1D4301740086E962 /* OtherVC.m in Sources */,
+				BFA5F5441D518E4500108745 /* NSObject+HMDefine.m in Sources */,
 				BF96AE661D2DF0C4008CA0AA /* GraphicView.swift in Sources */,
 				BF24871C1D28EBD50075A88D /* CanvasSetView.swift in Sources */,
 				BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */,
@@ -908,16 +1061,20 @@
 				BF96AE601D2CE4A7008CA0AA /* GraphicVC.swift in Sources */,
 				BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */,
 				BF97CABC1D448A8300C5CFD2 /* ScanView.m in Sources */,
+				BFC707571D4A1BAC001227DE /* RuntimeVC.m in Sources */,
 				BF45AD051D0BDE07006F5051 /* Person.m in Sources */,
 				BFA849D61D13D63A000BF5CA /* DrawVC.m in Sources */,
 				0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */,
 				0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,
+				BFC707691D4F2A97001227DE /* ChildVC.m in Sources */,
 				BF97CAB61D44870500C5CFD2 /* QRCodeVC.m in Sources */,
 				EA7987511B8A241A00E84103 /* GestureVC.m in Sources */,
+				BFC7076F1D4F4C4E001227DE /* CoreAnimationVC.m in Sources */,
 				02EF345A1B7C79290099D4D9 /* main.m in Sources */,
 				BF8178F91D43015E0086E962 /* AlipayVC.m in Sources */,
 				BF8178FF1D43018E0086E962 /* UrlProtocolVC.m in Sources */,
+				BFC707751D4F4C87001227DE /* ViewAnimationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,12 +1112,28 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
+		BF26BB1D1D49F9760002B327 /* System.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26BB1E1D49F9760002B327 /* Base */,
+			);
+			name = System.storyboard;
+			sourceTree = "<group>";
+		};
 		BF8179071D4318310086E962 /* Other.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BF8179081D4318310086E962 /* Base */,
 			);
 			name = Other.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC707591D4ADD14001227DE /* DesignPattern.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC7075A1D4ADD14001227DE /* Base */,
+			);
+			name = DesignPattern.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

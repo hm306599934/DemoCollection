@@ -139,3 +139,35 @@
 }
 
 @end
+
+@implementation UIView(HMView)
+
+- (void)removeSubViews {
+    for (id view in self.subviews) {
+        [view removeFromSuperview];
+    }
+}
+
+- (void)setBorderWidth:(CGFloat)width color:(UIColor *)color {
+    self.layer.borderWidth = width;
+    self.layer.borderColor = color.CGColor == nil ? [UIColor lightGrayColor].CGColor : color.CGColor;
+}
+
+- (void)setBorderWidth:(CGFloat)width color:(UIColor*)color radius:(CGFloat)radius {
+    self.layer.masksToBounds = YES;
+    self.layer.borderWidth = width;
+    self.layer.cornerRadius = radius;
+    self.layer.borderColor = color.CGColor == nil ? [UIColor lightGrayColor].CGColor : color.CGColor;
+}
+
+- (void)setRound {
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius = self.frame.size.height / 2;
+}
+
+- (void)setRadius:(CGFloat)radius {
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius = radius;
+}
+
+@end

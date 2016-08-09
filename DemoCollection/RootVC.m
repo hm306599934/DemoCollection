@@ -20,9 +20,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"设计模式", @"Core Graphic", @"AVFoundation", @"动画效果", @"KVO", @"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"KVO", @"网络", @"选取图片", @"侧边栏",  @"手势",  @"其他", nil];
+    data = [[NSArray alloc] initWithObjects:@"System", @"设计模式", @"Core Graphic", @"AVFoundation", @"动画效果", @"KVO", @"回调", @"UITableView", @"UICollectionView", @"UIScrollView", @"GCD", @"上拉下拉", @"网络", @"选取图片", @"侧边栏",  @"手势",  @"其他", nil];
     [self.tableView hideExtreCell];
+    
+    //滑动时隐藏导航栏
+    //self.navigationController.hidesBarsOnSwipe = YES;
+    
+    //消除导航条返回键带的title
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
+                                                         forBarMetrics:UIBarMetricsDefault];
 
+   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -113,6 +121,10 @@
     else if ([title isEqualToString:@"Core Graphic"])
     {
         [self performSegueWithIdentifier:@"CoreGraphic" sender:nil];
+    }
+    else if ([title isEqualToString:@"System"])
+    {
+        [self performSegueWithIdentifier:@"System" sender:nil];
     }
     
 }

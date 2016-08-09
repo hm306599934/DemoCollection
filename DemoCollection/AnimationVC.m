@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    data = [[NSArray alloc] initWithObjects:@"平移", @"旋转", @"变大", @"淡入", @"淡出", @"动态按钮", @"Core Animation",nil];
+    data = [[NSArray alloc] initWithObjects:@"平移", @"旋转", @"变大", @"淡入", @"淡出", @"frame", @"bounds", @"center", @"transform", @"alpha", @"backgroundColor", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,7 +52,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated: YES];
+    
     NSString *title = [data objectAtIndex:indexPath.row];
+    
     if ([title isEqualToString:@"平移"]) {
         AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationMove];
         [animationView show];
@@ -68,8 +70,24 @@
     }else if ([title isEqualToString:@"淡出"]) {
         AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationFadeOut];
         [animationView show];
-    }else if ([title isEqualToString:@"动态按钮"]) {
-        [self performSegueWithIdentifier:@"AnimationButton" sender:nil];
+    }else if ([title isEqualToString:@"frame"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationFrame];
+        [animationView show];
+    }else if ([title isEqualToString:@"bounds"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationBounds];
+        [animationView show];
+    }else if ([title isEqualToString:@"center"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationCenter];
+        [animationView show];
+    }else if ([title isEqualToString:@"transform"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationTransform];
+        [animationView show];
+    }else if ([title isEqualToString:@"alpha"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationAlpha];
+        [animationView show];
+    }else if ([title isEqualToString:@"backgroundColor"]) {
+        AnimationView *animationView = [[AnimationView alloc] initWithFrame: self.view.frame in: self.view type:AnimationBackgroundColor];
+        [animationView show];
     }
 }
 

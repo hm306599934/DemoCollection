@@ -51,6 +51,18 @@
         [self fadeIn];
     }else if (type == AnimationFadeOut) {
         [self fadeOut];
+    }else if (type == AnimationFrame) {
+        [self changeSizeAndPosition];
+    }else if (type == AnimationBounds) {
+        [self changeViewSize];
+    }else if (type == AnimationCenter) {
+        [self changePosition];
+    }else if (type == AnimationTransform) {
+        [self changeScaleAndSoOn];
+    }else if (type == AnimationAlpha) {
+        [self changeAlpha];
+    }else if (type == AnimationBackgroundColor) {
+        [self changeBackgroundColor];
     }
 }
 
@@ -76,7 +88,8 @@
 
 - (void)rotate1 {
     CGAffineTransform endAngle = CGAffineTransformMakeRotation(angle * (M_PI / 360.0f));
-    [UIView animateWithDuration:0.01 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{        animationView.transform = endAngle;
+    [UIView animateWithDuration:0.01 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
+        animationView.transform = endAngle;
     } completion:^(BOOL finished) {
         angle += 10;
         if (angle < 360 * 3) {
@@ -129,6 +142,66 @@
     [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
         animationView.alpha = 0;
         animationView.frame = CGRectMake(self.frame.size.width / 2, self.frame.size.height / 2- 50, 0, 0);
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [self dismiss];
+        }
+    }];
+}
+
+- (void)changeSizeAndPosition {
+    [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
+        animationView.frame = CGRectMake(self.frame.size.width / 2, self.frame.size.height / 2- 50, 10, 0);
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [self dismiss];
+        }
+    }];
+}
+
+- (void)changeViewSize {
+    [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
+        animationView.bounds = CGRectMake(0, 0, 10, 0);
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [self dismiss];
+        }
+    }];
+}
+
+- (void)changePosition {
+    [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
+        animationView.center = CGPointMake(200, 400);
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [self dismiss];
+        }
+    }];
+}
+
+- (void)changeScaleAndSoOn {
+    [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
+        animationView.transform = CGAffineTransformScale(animationView.transform, 2, 2);
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [self dismiss];
+        }
+    }];
+}
+
+- (void)changeAlpha {
+    [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
+        animationView.alpha = 0;
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [self dismiss];
+        }
+    }];
+}
+
+- (void)changeBackgroundColor {
+    [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
+        animationView.backgroundColor = [UIColor yellowColor];
     } completion:^(BOOL finished) {
         if (finished) {
             [self dismiss];
