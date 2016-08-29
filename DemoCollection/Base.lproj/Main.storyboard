@@ -329,6 +329,7 @@
                         <segue destination="VFo-cM-hVw" kind="show" identifier="CoreGraphic" id="mE7-Hk-FRY"/>
                         <segue destination="BtO-9E-qFR" kind="show" identifier="Other" id="v3q-Cf-KFD"/>
                         <segue destination="3VF-E2-2ra" kind="show" identifier="System" id="FdQ-LG-MTW"/>
+                        <segue destination="Ow8-Mp-ETq" kind="show" identifier="AVFoundation" id="HQk-C3-40m"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sEm-SW-lCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -444,6 +445,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="4UK-Rn-Ytb" kind="show" id="7km-xu-S8s"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="ENQ-ov-wKU" style="IBUITableViewCellStyleDefault" id="jiC-6f-ddV">
+                                        <rect key="frame" x="0.0" y="284" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jiC-6f-ddV" id="6zA-7T-RXj">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Uber启动动画" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ENQ-ov-wKU">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="8os-1c-AtL" kind="showDetail" id="IKS-VU-WYA"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -895,6 +916,84 @@
             </objects>
             <point key="canvasLocation" x="296" y="4122"/>
         </scene>
+        <!--AVFoundation-->
+        <scene sceneID="teo-Z9-UXe">
+            <objects>
+                <tableViewController id="Ow8-Mp-ETq" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ew4-WU-3h9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="fDL-zX-XcL">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="8tc-A8-i4i" style="IBUITableViewCellStyleDefault" id="e0O-hP-AVh">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e0O-hP-AVh" id="Uej-iN-avU">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="MPMoviePlayerController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8tc-A8-i4i">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9AB-hj-mAZ" kind="show" id="Hn2-6M-JC6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Ow8-Mp-ETq" id="aeD-3i-4eK"/>
+                            <outlet property="delegate" destination="Ow8-Mp-ETq" id="YcO-yZ-5hD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="AVFoundation" id="lno-jZ-ht9"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A3P-NY-MRA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1236" y="5200"/>
+        </scene>
+        <!--MPMoviePlayerController-->
+        <scene sceneID="ssC-CE-Jvq">
+            <objects>
+                <viewController id="9AB-hj-mAZ" customClass="MpMovieVC" customModule="DemoCollection" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tHr-rc-LZf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jt8-79-7re"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vAI-VT-MDq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LHq-7Y-bZ1">
+                                <rect key="frame" x="0.0" y="64" width="320" height="171"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LHq-7Y-bZ1" secondAttribute="height" multiplier="15:8" id="R0o-8P-R8K"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="LHq-7Y-bZ1" secondAttribute="trailing" id="E0T-AN-Jhb"/>
+                            <constraint firstItem="LHq-7Y-bZ1" firstAttribute="leading" secondItem="vAI-VT-MDq" secondAttribute="leading" id="h0s-cA-bIt"/>
+                            <constraint firstItem="LHq-7Y-bZ1" firstAttribute="top" secondItem="tHr-rc-LZf" secondAttribute="bottom" id="xUL-Bd-dsU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="MPMoviePlayerController" id="9Uq-Fr-6A3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rZG-Kl-NUI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1810" y="5200"/>
+        </scene>
         <!--手势-->
         <scene sceneID="Aaf-QC-SXd">
             <objects>
@@ -1264,6 +1363,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C9I-X0-YuI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1009" y="1590"/>
+        </scene>
+        <!--Uber动画-->
+        <scene sceneID="NsH-pp-mA1">
+            <objects>
+                <viewController title="Uber动画" id="8os-1c-AtL" customClass="UberVC" customModule="DemoCollection" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dhB-ak-GCC"/>
+                        <viewControllerLayoutGuide type="bottom" id="h8G-Tb-Keo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OMC-x2-Lja">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Uber启动动画" id="kJX-WH-zxH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DgT-Eb-cik" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1200" y="2004"/>
         </scene>
         <!--DesignPattern-->
         <scene sceneID="e7F-cf-BUU">

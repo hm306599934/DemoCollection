@@ -126,6 +126,10 @@
     {
         [self performSegueWithIdentifier:@"System" sender:nil];
     }
+    else if ([title isEqualToString:@"AVFoundation"])
+    {
+        [self performSegueWithIdentifier:@"AVFoundation" sender:nil];
+    }
     
 }
 

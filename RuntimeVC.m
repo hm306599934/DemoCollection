@@ -124,7 +124,7 @@
 - (void) getPropertyType {
     Jimmy *obj = [Jimmy new];
     Ivar var = class_getInstanceVariable(object_getClass(obj),"mName");
-    const char* typeEncoding =ivar_getTypeEncoding(var);
+    const char* typeEncoding = ivar_getTypeEncoding(var);
     NSString *stringType =  [NSString stringWithCString:typeEncoding encoding:NSUTF8StringEncoding];
     
     if ([stringType hasPrefix:@"@"]) {

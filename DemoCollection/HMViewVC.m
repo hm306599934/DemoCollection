@@ -8,20 +8,25 @@
 
 #import "HMViewVC.h"
 #import "HMButton.h"
-#import "HMInputView.h"
+#import "HMTextInputView.h"
+#import "UIView+HMDefine.h"
 
 @interface HMViewVC()
 
-@property (weak, nonatomic) IBOutlet HMInputView *mInputView;
+@property (weak, nonatomic) IBOutlet HMTextInputView *mInputView;
 
 
 @end
 
 @implementation HMViewVC
+@synthesize mInputView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [mInputView setBorderWidth:1 color:[UIColor lightGrayColor]];
+    mInputView.mode = TextInputViewModePassswordVisible;
+    mInputView.title = @"dadasd";
 }
 
 - (IBAction)doHMButton:(HMButton *)sender {

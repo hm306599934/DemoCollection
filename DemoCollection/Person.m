@@ -8,6 +8,12 @@
 
 #import "Person.h"
 
+@interface Person()
+
+@property (nonatomic, strong) NSString *address;
+
+@end
+
 @implementation Person
 
 @synthesize name, friends;
@@ -16,6 +22,7 @@
     self = [super init];
     if (self) {
         name = @"";
+        _address = @"saddada";
         friends = [NSMutableArray new];
     }
     return self;

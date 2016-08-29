@@ -8,6 +8,7 @@
 
 #import "KeyAndValueVC.h"
 #import "Person.h"
+#import "Person+Test.h"
 
 static void *child1Context = &child1Context;
 static void *child2Context = &child2Context;
@@ -30,6 +31,7 @@ static void *child2Context = &child2Context;
     
     person1 = [Person new];
     person1.name = @"lala";
+    [person1 test];
     person2 = [Person new];
     person2.name = @"lalala";
 }
