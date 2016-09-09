@@ -38,7 +38,6 @@
 		02EF34681B7C79290099D4D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02EF34661B7C79290099D4D9 /* LaunchScreen.xib */; };
 		02EF347F1B7C7A690099D4D9 /* CallBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF347E1B7C7A690099D4D9 /* CallBackVC.m */; };
 		02EF34821B7C7A7C0099D4D9 /* DelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34811B7C7A7C0099D4D9 /* DelegateVC.m */; };
-		02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34841B7C7AED0099D4D9 /* RootVC.m */; };
 		02EF34881B7C81330099D4D9 /* UITableView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EF34871B7C81330099D4D9 /* UITableView+Helper.m */; };
 		BF0A99E71CD2041300F68EE5 /* AnimationButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E61CD2041300F68EE5 /* AnimationButtonVC.swift */; };
 		BF0A99EA1CD2078000F68EE5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A99E91CD2078000F68EE5 /* DynamicButton.swift */; };
@@ -60,6 +59,7 @@
 		BF24871A1D28EAD20075A88D /* CanvasSet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF2487191D28EAD20075A88D /* CanvasSet.xib */; };
 		BF24871C1D28EBD50075A88D /* CanvasSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24871B1D28EBD50075A88D /* CanvasSetView.swift */; };
 		BF26BB1F1D49F9760002B327 /* System.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26BB1D1D49F9760002B327 /* System.storyboard */; };
+		BF39E4D01D77FE0C00CEAB61 /* UberCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF39E4CF1D77FE0C00CEAB61 /* UberCircleLayer.swift */; };
 		BF45AD051D0BDE07006F5051 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD041D0BDE07006F5051 /* Person.m */; };
 		BF45AD081D0BDE31006F5051 /* KeyAndValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45AD071D0BDE31006F5051 /* KeyAndValueVC.m */; };
 		BF47721C1D73C6EF007449A5 /* UberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47721B1D73C6EF007449A5 /* UberVC.swift */; };
@@ -72,6 +72,8 @@
 		BF63B2621D59D17D00477388 /* HMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B2611D59D17D00477388 /* HMButton.m */; };
 		BF63B26D1D59FD5D00477388 /* HMTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B26C1D59FD5D00477388 /* HMTextInputView.m */; };
 		BF63B2731D59FDEF00477388 /* HMViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B2721D59FDEF00477388 /* HMViewVC.m */; };
+		BF6A65741D7FA81A001E7DD1 /* PopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A65731D7FA81A001E7DD1 /* PopVC.m */; };
+		BF70463A1D825DBC00A558C8 /* Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7046381D825DBC00A558C8 /* Animation.storyboard */; };
 		BF707C591D6E8EF8002F311C /* HMVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707C581D6E8EF8002F311C /* HMVideoPlayer.m */; };
 		BF707C5C1D6E90E0002F311C /* HMVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707C5B1D6E90E0002F311C /* HMVideoPlayerViewController.m */; };
 		BF707C5F1D6E9454002F311C /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707C5E1D6E9454002F311C /* VideoPlayViewController.m */; };
@@ -193,8 +195,6 @@
 		02EF347E1B7C7A690099D4D9 /* CallBackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallBackVC.m; sourceTree = "<group>"; };
 		02EF34801B7C7A7C0099D4D9 /* DelegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateVC.h; sourceTree = "<group>"; };
 		02EF34811B7C7A7C0099D4D9 /* DelegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateVC.m; sourceTree = "<group>"; };
-		02EF34831B7C7AED0099D4D9 /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
-		02EF34841B7C7AED0099D4D9 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
 		02EF34861B7C81330099D4D9 /* UITableView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Helper.h"; sourceTree = "<group>"; };
 		02EF34871B7C81330099D4D9 /* UITableView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Helper.m"; sourceTree = "<group>"; };
 		4190366A33985D3019EBE923 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +225,7 @@
 		BF2487191D28EAD20075A88D /* CanvasSet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasSet.xib; sourceTree = "<group>"; };
 		BF24871B1D28EBD50075A88D /* CanvasSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasSetView.swift; sourceTree = "<group>"; };
 		BF26BB1E1D49F9760002B327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/System.storyboard; sourceTree = "<group>"; };
+		BF39E4CF1D77FE0C00CEAB61 /* UberCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UberCircleLayer.swift; sourceTree = "<group>"; };
 		BF45AD031D0BDE07006F5051 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		BF45AD041D0BDE07006F5051 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BF45AD061D0BDE31006F5051 /* KeyAndValueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAndValueVC.h; sourceTree = "<group>"; };
@@ -243,6 +244,9 @@
 		BF63B26C1D59FD5D00477388 /* HMTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMTextInputView.m; path = DemoCollection/HMTextInputView.m; sourceTree = "<group>"; };
 		BF63B2711D59FDEF00477388 /* HMViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMViewVC.h; path = DemoCollection/HMViewVC.h; sourceTree = "<group>"; };
 		BF63B2721D59FDEF00477388 /* HMViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMViewVC.m; path = DemoCollection/HMViewVC.m; sourceTree = "<group>"; };
+		BF6A65721D7FA81A001E7DD1 /* PopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopVC.h; sourceTree = "<group>"; };
+		BF6A65731D7FA81A001E7DD1 /* PopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopVC.m; sourceTree = "<group>"; };
+		BF7046391D825DBC00A558C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Animation.storyboard; sourceTree = "<group>"; };
 		BF707C571D6E8EF8002F311C /* HMVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMVideoPlayer.h; sourceTree = "<group>"; };
 		BF707C581D6E8EF8002F311C /* HMVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMVideoPlayer.m; sourceTree = "<group>"; };
 		BF707C5A1D6E90E0002F311C /* HMVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMVideoPlayerViewController.h; sourceTree = "<group>"; };
@@ -474,6 +478,7 @@
 		029029911B82E29C0079AF30 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				BF6A65711D7FA6B3001E7DD1 /* Pop */,
 				BF47721D1D73DA3A007449A5 /* Uber启动动画 */,
 				BF0A99E81CD2075000F68EE5 /* DynamicButton */,
 				029029921B82E2B90079AF30 /* AnimationVC.h */,
@@ -578,28 +583,13 @@
 			children = (
 				02EF345B1B7C79290099D4D9 /* AppDelegate.h */,
 				02EF345C1B7C79290099D4D9 /* AppDelegate.m */,
-				02EF34831B7C7AED0099D4D9 /* RootVC.h */,
-				02EF34841B7C7AED0099D4D9 /* RootVC.m */,
 				BFC7074D1D4A16CA001227DE /* System */,
-				BF96AE5E1D2CE47D008CA0AA /* Core Graphic */,
-				BFA849D31D13D561000BF5CA /* Draw */,
-				BF47D1291D0D80A80041E989 /* Paint */,
-				BF45AD021D0BD703006F5051 /* KVO */,
+				BF70463B1D825FD300A558C8 /* Basic */,
 				021EAF7C1B7DD8DC00D73BD7 /* Network */,
-				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
-				0217E9B31B7CB33800ADCAF8 /* TableView */,
-				0217E9B41B7D79AF00ADCAF8 /* CollectionView */,
-				0217E9B51B7D79B300ADCAF8 /* ScrollView */,
-				021EAF651B7D838D00D73BD7 /* GCD */,
-				029029911B82E29C0079AF30 /* Animation */,
-				029029B91B85EE370079AF30 /* SelectPicture */,
-				EA79874E1B8A23F400E84103 /* Gesture */,
-				029029A51B846FB80079AF30 /* Other */,
-				BFD0CFAB1D45FF1E00615F18 /* Category */,
-				021EAF6F1B7DC16C00D73BD7 /* View */,
-				021EAF661B7D83BF00D73BD7 /* Helper */,
-				026DDA921B9477E200FCB935 /* LoadMore */,
 				BFEE05821D1A1F1000D574BC /* DesignPattern */,
+				029029911B82E29C0079AF30 /* Animation */,
+				029029A51B846FB80079AF30 /* Other */,
+				BF70463C1D82601B00A558C8 /* Util */,
 				BFE4F4321D701F9B00B1D420 /* Resource */,
 				02EF34571B7C79290099D4D9 /* Supporting Files */,
 			);
@@ -615,6 +605,7 @@
 				02CF0C421B873D1200415CEC /* Interface */,
 				BF0A99E31CD203A000F68EE5 /* DemoCollection-Bridging-Header.h */,
 				02EF34611B7C79290099D4D9 /* Main.storyboard */,
+				BF7046381D825DBC00A558C8 /* Animation.storyboard */,
 				BFC707591D4ADD14001227DE /* DesignPattern.storyboard */,
 				BF26BB1D1D49F9760002B327 /* System.storyboard */,
 				BF8179071D4318310086E962 /* Other.storyboard */,
@@ -700,6 +691,7 @@
 			children = (
 				BF47721B1D73C6EF007449A5 /* UberVC.swift */,
 				BF47721E1D73DA66007449A5 /* UberLogoView.swift */,
+				BF39E4CF1D77FE0C00CEAB61 /* UberCircleLayer.swift */,
 			);
 			name = "Uber启动动画";
 			sourceTree = "<group>";
@@ -763,6 +755,58 @@
 				BF5CBE3F1D6C417600958C33 /* TempInputView.m */,
 			);
 			name = "输入框";
+			sourceTree = "<group>";
+		};
+		BF6A65711D7FA6B3001E7DD1 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A65721D7FA81A001E7DD1 /* PopVC.h */,
+				BF6A65731D7FA81A001E7DD1 /* PopVC.m */,
+			);
+			name = Pop;
+			sourceTree = "<group>";
+		};
+		BF7046361D8255D600A558C8 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				BF7046371D8255E100A558C8 /* NSThread */,
+				021EAF651B7D838D00D73BD7 /* GCD */,
+			);
+			name = "多线程";
+			sourceTree = "<group>";
+		};
+		BF7046371D8255E100A558C8 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NSThread;
+			sourceTree = "<group>";
+		};
+		BF70463B1D825FD300A558C8 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				026DDA921B9477E200FCB935 /* LoadMore */,
+				021EAF6F1B7DC16C00D73BD7 /* View */,
+				EA79874E1B8A23F400E84103 /* Gesture */,
+				029029B91B85EE370079AF30 /* SelectPicture */,
+				0217E9B51B7D79B300ADCAF8 /* ScrollView */,
+				0217E9B41B7D79AF00ADCAF8 /* CollectionView */,
+				0217E9B31B7CB33800ADCAF8 /* TableView */,
+				0217E9B21B7CAFA200ADCAF8 /* CallBack */,
+				BF47D1291D0D80A80041E989 /* Paint */,
+				BFA849D31D13D561000BF5CA /* Draw */,
+				BF45AD021D0BD703006F5051 /* KVO */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		BF70463C1D82601B00A558C8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BFD0CFAB1D45FF1E00615F18 /* Category */,
+				021EAF661B7D83BF00D73BD7 /* Helper */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		BF707C561D6E8EC0002F311C /* AvPlayer */ = {
@@ -876,6 +920,8 @@
 		BFC7074D1D4A16CA001227DE /* System */ = {
 			isa = PBXGroup;
 			children = (
+				BF96AE5E1D2CE47D008CA0AA /* Core Graphic */,
+				BF7046361D8255D600A558C8 /* 多线程 */,
 				BF4772201D73E6C1007449A5 /* AVFoundation */,
 				BF26BB1C1D49F84C0002B327 /* RunTime */,
 			);
@@ -1084,6 +1130,7 @@
 				BFC7075B1D4ADD14001227DE /* DesignPattern.storyboard in Resources */,
 				02EF34631B7C79290099D4D9 /* Main.storyboard in Resources */,
 				BF96F2641D422528000FF3D0 /* jay1.jpg in Resources */,
+				BF70463A1D825DBC00A558C8 /* Animation.storyboard in Resources */,
 				BFE4F4371D70207600B1D420 /* 1.mp4 in Resources */,
 				02C212D61BF4AE5400079886 /* ImageUrl.plist in Resources */,
 				BF96F2671D422528000FF3D0 /* jay4.jpg in Resources */,
@@ -1170,10 +1217,12 @@
 				021EAF791B7DD11C00D73BD7 /* CustomTableViewCell.m in Sources */,
 				0276CDCE1BF49F56007A7D87 /* DownloadImagesVC.m in Sources */,
 				021EAF761B7DCF1200D73BD7 /* CustomCellVC.m in Sources */,
+				BF39E4D01D77FE0C00CEAB61 /* UberCircleLayer.swift in Sources */,
 				BF97CACE1D45B22E00C5CFD2 /* PayRNVC.m in Sources */,
 				026DDA951B94782C00FCB935 /* LoadMoewVC.m in Sources */,
 				02EF345D1B7C79290099D4D9 /* AppDelegate.m in Sources */,
 				BF2487151D2797B50075A88D /* CanvasModel.swift in Sources */,
+				BF6A65741D7FA81A001E7DD1 /* PopVC.m in Sources */,
 				BFA5F54A1D51972600108745 /* UIViewController+HMDefine.m in Sources */,
 				BF63B2731D59FDEF00477388 /* HMViewVC.m in Sources */,
 				BFEE05861D1A22FA00D574BC /* StrategyVC.swift in Sources */,
@@ -1211,7 +1260,6 @@
 				029029941B82E2B90079AF30 /* AnimationVC.m in Sources */,
 				BF707C5C1D6E90E0002F311C /* HMVideoPlayerViewController.m in Sources */,
 				BF97CAB91D4488C800C5CFD2 /* ScanBackgroundView.m in Sources */,
-				02EF34851B7C7AED0099D4D9 /* RootVC.m in Sources */,
 				021EAF721B7DC19C00D73BD7 /* CustomButton.m in Sources */,
 				029029BC1B85EE9D0079AF30 /* SelectPictureVC.m in Sources */,
 				BF1F61D11D61E575003EE918 /* NSString+HMDefine.m in Sources */,
@@ -1286,6 +1334,14 @@
 				BF26BB1E1D49F9760002B327 /* Base */,
 			);
 			name = System.storyboard;
+			sourceTree = "<group>";
+		};
+		BF7046381D825DBC00A558C8 /* Animation.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7046391D825DBC00A558C8 /* Base */,
+			);
+			name = Animation.storyboard;
 			sourceTree = "<group>";
 		};
 		BF8179071D4318310086E962 /* Other.storyboard */ = {
