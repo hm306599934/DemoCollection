@@ -10,4 +10,9 @@
 
 @implementation PopVC
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+}
+
 @end

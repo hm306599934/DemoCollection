@@ -10,5 +10,6 @@ pod 'RxBlocking', '~> 2.5.0'
 pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'Masonry'
+pod 'pop'
 
 end

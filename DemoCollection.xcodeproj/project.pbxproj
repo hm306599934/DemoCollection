@@ -74,6 +74,7 @@
 		BF63B2731D59FDEF00477388 /* HMViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF63B2721D59FDEF00477388 /* HMViewVC.m */; };
 		BF6A65741D7FA81A001E7DD1 /* PopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6A65731D7FA81A001E7DD1 /* PopVC.m */; };
 		BF70463A1D825DBC00A558C8 /* Animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7046381D825DBC00A558C8 /* Animation.storyboard */; };
+		BF70463F1D82612200A558C8 /* NSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70463E1D82612200A558C8 /* NSThreadVC.m */; };
 		BF707C591D6E8EF8002F311C /* HMVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707C581D6E8EF8002F311C /* HMVideoPlayer.m */; };
 		BF707C5C1D6E90E0002F311C /* HMVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707C5B1D6E90E0002F311C /* HMVideoPlayerViewController.m */; };
 		BF707C5F1D6E9454002F311C /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF707C5E1D6E9454002F311C /* VideoPlayViewController.m */; };
@@ -247,6 +248,8 @@
 		BF6A65721D7FA81A001E7DD1 /* PopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopVC.h; sourceTree = "<group>"; };
 		BF6A65731D7FA81A001E7DD1 /* PopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopVC.m; sourceTree = "<group>"; };
 		BF7046391D825DBC00A558C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Animation.storyboard; sourceTree = "<group>"; };
+		BF70463D1D82612200A558C8 /* NSThreadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadVC.h; sourceTree = "<group>"; };
+		BF70463E1D82612200A558C8 /* NSThreadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadVC.m; sourceTree = "<group>"; };
 		BF707C571D6E8EF8002F311C /* HMVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMVideoPlayer.h; sourceTree = "<group>"; };
 		BF707C581D6E8EF8002F311C /* HMVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMVideoPlayer.m; sourceTree = "<group>"; };
 		BF707C5A1D6E90E0002F311C /* HMVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMVideoPlayerViewController.h; sourceTree = "<group>"; };
@@ -778,6 +781,8 @@
 		BF7046371D8255E100A558C8 /* NSThread */ = {
 			isa = PBXGroup;
 			children = (
+				BF70463D1D82612200A558C8 /* NSThreadVC.h */,
+				BF70463E1D82612200A558C8 /* NSThreadVC.m */,
 			);
 			name = NSThread;
 			sourceTree = "<group>";
@@ -1277,6 +1282,7 @@
 				BFC707571D4A1BAC001227DE /* RuntimeVC.m in Sources */,
 				BF45AD051D0BDE07006F5051 /* Person.m in Sources */,
 				BFA849D61D13D63A000BF5CA /* DrawVC.m in Sources */,
+				BF70463F1D82612200A558C8 /* NSThreadVC.m in Sources */,
 				0290299A1B8344580079AF30 /* ScrollViewVC.m in Sources */,
 				0290298A1B81F6860079AF30 /* AsyncVC.m in Sources */,
 				021EAF691B7D967700D73BD7 /* UIView+Helper.m in Sources */,

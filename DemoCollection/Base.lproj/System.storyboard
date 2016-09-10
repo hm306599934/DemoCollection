@@ -245,7 +245,7 @@
         <!--NSThread-->
         <scene sceneID="iWG-Oy-nTq">
             <objects>
-                <viewController id="Nwt-Yz-x5x" sceneMemberID="viewController">
+                <viewController id="Nwt-Yz-x5x" customClass="NSThreadVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tOu-RM-6uK"/>
                         <viewControllerLayoutGuide type="bottom" id="O3u-pi-XNa"/>
